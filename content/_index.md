@@ -190,9 +190,9 @@ sections:
 #    design:
 #      columns: '1'
   - block: collection
-    id: jmp
+    id: featured
     content:
-      title: Job Market Paper
+      title: Featured Publications
       filters:
         folders:
           - jmp
@@ -201,13 +201,16 @@ sections:
       columns: '2'
       view: card
   - block: collection
-    id: featured
     content:
-      title: Working Papers
+      title: Recent Publications
+      text: |-
+        {{% callout note %}}
+        Quickly discover relevant content by [filtering publications](./publication/).
+        {{% /callout %}}
       filters:
         folders:
           - publication
-        featured_only: true
+        exclude_featured: true
     design:
       columns: '2'
       view: citation
