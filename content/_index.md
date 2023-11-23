@@ -190,7 +190,7 @@ sections:
 #    design:
 #      columns: '1'
   - block: collection
-    id: featured
+    id: JMP
     content:
       title: Job Market Paper
       filters:
@@ -201,6 +201,7 @@ sections:
       columns: '2'
       view: card
   - block: collection
+    id: wp
     content:
       title: Working Papers
       text: |-

@@ -17,7 +17,7 @@ main:
 #    url: '#talks'
 #    weight: 40
   - name: Working Papers
-    url: '#publication'
+    url: '#wp'
     weight: 30
   - name: Contact
     url: '#contact'
