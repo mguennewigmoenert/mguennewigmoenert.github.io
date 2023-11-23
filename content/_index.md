@@ -192,7 +192,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Job Market Paper
       filters:
         folders:
           - jmp
@@ -202,12 +202,8 @@ sections:
       view: card
   - block: collection
     content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
+      title: Working Papers
+      text:
         folders:
           - publication
         exclude_featured: true
