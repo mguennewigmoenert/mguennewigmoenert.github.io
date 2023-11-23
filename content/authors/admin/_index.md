@@ -17,35 +17,37 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD Student in Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Trinity College Dublin
-    url: https://www.stanford.edu/
+    url: https://www.tcd.ie/Economics/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Urban Economics
+  - Economic History
+  - Public Economics
 
 # Education to show in About widget
 education:
   courses:
     - course: PhD in Economics
       institution: Trinity College Dublin
-      year: 2012
+      year: 2024
     - course: MSc in Economic History
       institution: London School of Economics
-      year: 2009
-    - course: BSc in Economics
+      year: 2019
+    - course: BA in Economics
       institution: University of St. Gallen
-      year: 2008
-
+      year: 2018
+    - course: BA in History and Philosophy
+      institution: Humboldt University Berlin
+      year: 2015
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
@@ -100,15 +102,15 @@ social:
     label: Follow me on Twitter
     display:
       header: true
-  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: fas
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+#  - icon: graduation-cap # Alternatively, use `google-scholar` icon from `ai` icon pack
+#    icon_pack: fas
+#    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
     link: https://github.com/gcushen
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/mguennewigmoenert/
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
