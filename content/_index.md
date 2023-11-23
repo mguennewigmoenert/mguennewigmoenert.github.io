@@ -237,12 +237,10 @@ sections:
       # Contact (add or remove contact options as necessary)
       email: gnnewigm@tcd.ie
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
-        country: United States
-        country_code: US
+        street: Trinity Research in Social Sciences (TRiSS), Arts Building, Trinity College Dublin
+        city: Dublin
+        region: Dublin
+        country: Ireland
       contact_links:
         - icon: twitter
           icon_pack: fab
