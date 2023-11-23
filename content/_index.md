@@ -193,7 +193,6 @@ sections:
     id: featured
     content:
       title: Job Market Paper
-      filters:
         folders:
           - jmp
         featured_only: true
@@ -203,7 +202,6 @@ sections:
   - block: collection
     content:
       title: Working Papers
-      text:
         folders:
           - publication
         exclude_featured: true
