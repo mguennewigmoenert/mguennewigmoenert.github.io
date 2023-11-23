@@ -1,11 +1,11 @@
 ---
-title: "An example journal article"
+title: "Housing prices, costs and policy: the housing supply equation in Ireland since 1970"
 authors:
 - admin
-- Robert Ford
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
+- Ronan C. Lyons
+# author_notes:
+# - "Equal contribution"
+# - "Equal contribution"
 date: "2015-09-01T00:00:00Z"
 doi: ""
 
@@ -15,16 +15,16 @@ publishDate: "2017-01-01T00:00:00Z"
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+# publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Journal of Source Themes, 1*(1)"
+# # publication: "*Journal of Source Themes, 1*(1)"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: Housing has become one of the defining economic, political and social issues across many cities in high-income countries. Building on a growing literature examining housing supply, we examine the responsiveness of housing supply to prices and costs, using the case of Ireland over the last half-century. We do this using data for the country and Dublin at quarterly frequency from the 1970s, as well as a county-level panel from the 1990s, and using four main specifications, in line with best practice for error correction models. We also test how our results vary when switching from our baseline measure of supply (permits) to alternatives (invest- ment, completions and commencements). Under our baseline, the estimated elas- ticity of new housing supply to prices nationally is +0.9 while the elasticity to costs, net of tax reliefs, is larger in magnitude (-1.9). We present evidence that responsive- ness to prices rose after the 1980s, then fell in the 2000s, before rising again. We also document significant heterogeneity in elasticities at the county level, with supply in Dublin among the least responsive to both prices and costs. These findings sug- gest new avenues for research on the determinants of supply elasticities.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -63,13 +63,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: example
 ---
-
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).

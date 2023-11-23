@@ -195,7 +195,7 @@ sections:
       title: Job Market Paper
       filters:
         folders:
-          - publication
+          - JMP
         featured_only: true
     design:
       columns: '2'
