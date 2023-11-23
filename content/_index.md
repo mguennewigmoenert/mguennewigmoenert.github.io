@@ -192,7 +192,7 @@ sections:
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Job Market Paper
       filters:
         folders:
           - publication
