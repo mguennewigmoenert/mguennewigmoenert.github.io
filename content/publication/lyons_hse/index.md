@@ -33,7 +33,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: https://www.dropbox.com/scl/fi/ys4bv4hhyk2o6iwop1e8t/Moenert_Public_Housing.pdf?rlkey=uwjnqukbwf0t50bhwsj635z22&dl=0
+url_pdf: https://www.dropbox.com/s/49vnq4kupp1ezmw/Lyons_Housing_Supply_Elasticity.pdf?dl=0
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
 # url_dataset: ''
 # url_poster: ''
