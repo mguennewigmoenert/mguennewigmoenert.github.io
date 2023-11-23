@@ -243,13 +243,13 @@ sections:
           link: 'https://twitter.com/Twitter'
      # Choose a map provider in `params.yaml` to show a map from these coordinates
       # Automatically link email and phone or display as text?
-      autolink: true
+#      autolink: true
       # Email form provider
 #      form:
 #        provider: netlify
 #        formspree:
 ##          id:
-        netlify:
+#        netlify:
           # Enable CAPTCHA challenge to reduce spam?
 #          captcha: false
     design:
