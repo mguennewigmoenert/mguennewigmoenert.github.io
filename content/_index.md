@@ -190,7 +190,7 @@ sections:
 #    design:
 #      columns: '1'
   - block: collection
-    id: projects
+    id: jmp
     content:
       title: Job Market Paper
       filters:
