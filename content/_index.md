@@ -236,6 +236,11 @@ sections:
       title: Contact
       # Contact (add or remove contact options as necessary)
       email: gnnewigm@tcd.ie
+      contact_links:
+        - icon: twitter
+          icon_pack: fab
+          name: DM Me
+          link: 'https://twitter.com/Twitter'
      # Choose a map provider in `params.yaml` to show a map from these coordinates
       # Automatically link email and phone or display as text?
       autolink: true
