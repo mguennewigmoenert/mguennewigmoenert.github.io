@@ -50,16 +50,18 @@ education:
       year: 2015
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
+# Skills
+# For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 skills:
-- name: Technical
-   items:
-         - name: Python
+  - name: Technical
+    items:
+      - name: Python
         description: ''
         percent: 80
         icon: python
         icon_pack: fab
       - name: Data Science
-       description: ''
+        description: ''
         percent: 100
         icon: chart-line
         icon_pack: fas
@@ -87,6 +89,7 @@ skills:
         percent: 80
         icon: camera-retro
         icon_pack: fas
+
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
