@@ -113,5 +113,5 @@ My research interests lie in the intersection of Urban Economics and Economic Hi
 My [Job Market Paper](https://github.com/mguennewigmoenert/mguennewigmoenert.github.io/blob/main/static/uploads/JMP_Moenert_Public_Housing.pdf) focuses on estimating the effect of a public housing design called "The tower in the park on residential sorting and its welfare consequences over the period from 1930 to 2010. Other research focuses on New York City rent control in the 1920s and how it impacted the wider housing market.
 {style="text-align: justify;"}
 
-Download my [CV](https://github.com/mguennewigmoenert/mguennewigmoenert.github.io/blob/main/static/uploads/JMP_Moenert_Public_Housing.pdf).
+Download my [CV](uploads/guennewig_moenert_cv.pdf).
 {style="text-align: justify;"}
