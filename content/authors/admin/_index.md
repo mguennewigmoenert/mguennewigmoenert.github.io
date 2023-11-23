@@ -120,5 +120,12 @@ social:
 highlight_name: true
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a Job Market Candidate in Economics at Trinity College Dublin under supervision of Prof. Ronan Lyons and affiliated with the Centre for Economics, Policy and History (СЕРН).
+
+My research interests lie in the intersection of Urban Economics and Economic History. My research revolves around understanding the development of historical urban policies in the United States over the 20th century.
+
+My Job Market Paper focuses on estimating the effect of a public housing design called "The tower in the park on residential sorting and its welfare consequences over the period from 1930 to 2010. Other research focuses on New York City rent control in the 1920s and how it impacted the wider housing market.
+
+Download my CV.
+
 {style="text-align: justify;"}
