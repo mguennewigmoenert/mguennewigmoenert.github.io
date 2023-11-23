@@ -1,7 +1,7 @@
 ---
 title: "The Impact of Rent Regulations in the 1920s New York City: External Effects and Property Prices"
 authors:
-- admin
+- Maximilian Guennewig-Moenert
 - Sun Kyoung Lee
 - Ronan C. Lyons
 # author_notes:
