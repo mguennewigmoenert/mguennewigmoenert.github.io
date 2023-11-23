@@ -1,7 +1,8 @@
 ---
-title: "Housing prices, costs and policy: the housing supply equation in Ireland since 1970"
+title: "The Impact of Rent Regulations in the 1920s New York City: External Effects and Property Prices"
 authors:
 - admin
+- Sun Kyoung Lee
 - Ronan C. Lyons
 # author_notes:
 # - "Equal contribution"
