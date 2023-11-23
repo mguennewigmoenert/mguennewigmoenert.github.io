@@ -57,44 +57,18 @@ skills:
     items:
       - name: 1st year undergraduate
         description: 'Prof. Eleanor Denny'
-        percent: 80
-        icon: python
-        icon_pack: fab
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-line
-        icon_pack: fas
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: database
-        icon_pack: fas
   - name: Macroeconomics
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: 1st year undergraduate
         description: 'Prof. Davide Romelli'
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
   - name: Econometrics
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name:  3rd year undergraduate
         description: 'Prof. Barra Roantree'
-        percent: 60
-        icon: person-hiking
-        icon_pack: fas
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera-retro
-        icon_pack: fas
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
