@@ -25,8 +25,8 @@ publishDate: '2017-01-01T00:00:00Z'
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+# publication: In *Hugo Blox Builder Conference*
+# publication_short: In *ICW*
 
 abstract: This paper investigates the long-run effect of public housing project design on neighborhood composition and rental prices in New York City from 1930 to 2010. Using a newly assembled dataset on the US census tract level and leveraging the staggered rollout of public housing, I document sizeable effects on racial composition. White population declined in tracts with public housing projects with significant spillover effects to adjacent tracts, while black population increased but only in public housing tracts. The effects on white and black population are driven by a specific project type called the “Tower in the park” – slim brick high-rises and vast green spaces in between. Moreover, rent prices fall by 26% within a 250m radius around “Towers”, indicating negative demand effects. In a cross-sectional analysis, I find that “Towers in the Park” are more associated with higher incarceration rates than non-Towers, though incarceration rates cannot entirely explain spillover effects on white population. Finally, I evaluate the welfare consequences of these externalities using a static neighborhood choice model. The model demonstrates that removing public housing or altering area ratios can increase amenity values and improve welfare.
 
