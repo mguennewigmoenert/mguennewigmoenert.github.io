@@ -239,7 +239,7 @@ sections:
       address:
         street: Trinity Research in Social Sciences (TRiSS), Arts Building, Trinity College Dublin
         city: Dublin
-        region: Dublin
+        region: Dublin 2
         country: Ireland
       contact_links:
         - icon: twitter
