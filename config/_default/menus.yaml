@@ -19,6 +19,9 @@ main:
   - name: Working Papers
     url: '#publication'
     weight: 30
+  - name: Teaching
+    url: '#talks'
+    weight: 40
   - name: Contact
     url: '#contact'
     weight: 50

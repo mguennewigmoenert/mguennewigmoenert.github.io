@@ -215,6 +215,7 @@ sections:
       columns: '2'
       view: citation
   - block: skills
+    id: talks
     content:
       title: Teaching
       text: ''
