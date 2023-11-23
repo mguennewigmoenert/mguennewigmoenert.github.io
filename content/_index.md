@@ -195,7 +195,7 @@ sections:
       title: Job Market Paper
       filters:
         folders:
-          - WP
+          - publication
         featured_only: true
     design:
       columns: '2'
