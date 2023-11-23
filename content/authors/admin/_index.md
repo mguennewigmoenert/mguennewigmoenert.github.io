@@ -104,7 +104,7 @@ social:
 highlight_name: true
 ---
 
-I am a Job Market Candidate in Economics at Trinity College Dublin under supervision of Prof. Ronan Lyons and affiliated with the Centre for Economics, Policy and History (СЕРН).
+I am a Job Market Candidate in Economics at [Trinity College Dublin](https://www.tcd.ie/Economics/) under supervision of Prof. Ronan Lyons and affiliated with the Centre for Economics, Policy and History (СЕРН).
 {style="text-align: justify;"}
 
 My research interests lie in the intersection of Urban Economics and Economic History. My research revolves around understanding the development of historical urban policies in the United States over the 20th century.
