@@ -190,7 +190,7 @@ sections:
 #    design:
 #      columns: '1'
   - block: collection
-    id: featured
+    id: projects
     content:
       title: Job Market Paper
         folders:
