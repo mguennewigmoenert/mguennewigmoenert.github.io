@@ -241,7 +241,7 @@ sections:
         - icon: twitter
           icon_pack: fab
           name: DM Me
-          link: 'https://twitter.com/Twitter'
+          link: 'https://twitter.com/max_moenert'
      # Choose a map provider in `params.yaml` to show a map from these coordinates
       # Automatically link email and phone or display as text?
 #      autolink: true
