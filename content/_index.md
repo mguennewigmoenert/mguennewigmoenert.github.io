@@ -190,18 +190,18 @@ sections:
 #    design:
 #      columns: '1'
   - block: collection
-    id: JMP
+    id: projects
     content:
       title: Job Market Paper
       filters:
         folders:
-          - JMP
+          - jmp
         featured_only: true
     design:
       columns: '2'
       view: card
   - block: collection
-    id: wp
+    id: featured
     content:
       title: Working Papers
       text: |-
