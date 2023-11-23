@@ -52,23 +52,23 @@ education:
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
-skills:
-  - name: Microeconomics
-    items:
-      - name: 1st year undergraduate
-        description: 'Prof. Eleanor Denny'
-  - name: Macroeconomics
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: 1st year undergraduate
-        description: 'Prof. Davide Romelli'
-  - name: Econometrics
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name:  3rd year undergraduate
-        description: 'Prof. Barra Roantree'
+#skills:
+#  - name: Microeconomics
+#    items:
+#      - name: 1st year undergraduate
+#        description: 'Prof. Eleanor Denny'
+#  - name: Macroeconomics
+#    color: '#eeac02'
+#    color_border: '#f0bf23'
+#    items:
+#      - name: 1st year undergraduate
+#        description: 'Prof. Davide Romelli'
+#  - name: Econometrics
+#    color: '#eeac02'
+#    color_border: '#f0bf23'
+#    items:
+#      - name:  3rd year undergraduate
+#        description: 'Prof. Barra Roantree'
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
