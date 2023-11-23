@@ -236,6 +236,13 @@ sections:
       title: Contact
       # Contact (add or remove contact options as necessary)
       email: gnnewigm@tcd.ie
+      address:
+        street: 450 Serra Mall
+        city: Stanford
+        region: CA
+        postcode: '94305'
+        country: United States
+        country_code: US
       contact_links:
         - icon: twitter
           icon_pack: fab
