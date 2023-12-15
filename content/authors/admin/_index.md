@@ -110,7 +110,7 @@ I am a Job Market Candidate in Economics at Trinity College Dublin under supervi
 My research interests lie in the intersection of Urban Economics and Economic History. My research revolves around understanding the development of historical urban policies in the United States over the 20th century.
 {style="text-align: justify;"}
 
-My [Job Market Paper](https://github.com/mguennewigmoenert/mguennewigmoenert.github.io/blob/main/static/uploads/JMP_Moenert_Public_Housing.pdf) focuses on estimating the effect of a public housing design called "The tower in the park on residential sorting and its welfare consequences over the period from 1930 to 2010. Other research focuses on New York City rent control in the 1920s and how it impacted the wider housing market.
+My [Job Market Paper](https://github.com/mguennewigmoenert/mguennewigmoenert.github.io/blob/main/static/uploads/JMP_Moenert_Public_Housing.pdf) focuses on estimating the effect of a public housing design called "The tower in the Park" on residential sorting and its welfare consequences over the period from 1930 to 2010. Other research focuses on New York City rent control in the 1920s and how it impacted the wider housing market.
 {style="text-align: justify;"}
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/guennewig_moenert_cv.pdf" "newtab" >}} CV{{< /staticref >}}.
