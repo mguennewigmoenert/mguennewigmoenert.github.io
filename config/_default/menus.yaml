@@ -12,7 +12,7 @@ main:
 #    weight: 20
   - name: Job Market Paper
     url: '#featured'
-    weight: 20
+    weight: 21
 #  - name: Talks
 #    url: '#talks'
 #    weight: 40
