@@ -217,9 +217,9 @@ sections:
       title: Publiations
       filters:
         folders:
-#          - event
-#    design:
-#      columns: '2'
+          - publications
+    design:
+      columns: '2'
 #      view: compact
 #  - block: tag_cloud
 #    content:
