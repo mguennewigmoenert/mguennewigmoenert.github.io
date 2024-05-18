@@ -28,8 +28,8 @@ abstract: This paper studies the effects of the first rent control laws in the U
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+# tags:
+# - Source Themes
 featured: false
 
 # links:
