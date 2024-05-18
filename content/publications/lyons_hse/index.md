@@ -1,7 +1,7 @@
 ---
 title: "Housing prices, costs and policy: the housing supply equation in Ireland since 1970"
 authors:
-- Maximilian Günnewig-Mönert
+- admin
 - Ronan C. Lyons
 # author_notes:
 # - "Equal contribution"
