@@ -33,7 +33,8 @@ abstract: This paper investigates the long-run effect of public housing project 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: []
+tags:
+    - Published
 
 # Display this page in the Featured widget?
 featured: false
