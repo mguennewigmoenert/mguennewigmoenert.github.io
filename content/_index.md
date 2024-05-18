@@ -189,6 +189,8 @@ sections:
 #        {{< gallery album="demo" >}}
 #    design:
 #      columns: '1'
+
+# Job Market Paper
   - block: collection
     id: featured
     content:
@@ -200,6 +202,8 @@ sections:
     design:
       columns: '2'
       view: card
+
+# Working Papers
   - block: collection
     id: projects
     content:
@@ -211,22 +215,18 @@ sections:
     design:
       columns: '2'
       view: citation
-  - block: collection
-    id: publications
-    content:
-      title: Publiations
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-#  - block: tag_cloud
+#  - block: collection
+#    id: publications
 #    content:
-#      title: Popular Topics
+#      title: Publiations
+#      filters:
+#        folders:
+#          - publication
+#        exclude_featured: true
 #    design:
 #      columns: '2'
+#      view: citation
+
   - block: contact
     id: contact
     content:
