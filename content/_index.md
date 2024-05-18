@@ -212,7 +212,7 @@ sections:
       columns: '2'
       view: citation
   - block: collection
-    id: publications
+    id: projects
     content:
       title: Publiations
       filters:
