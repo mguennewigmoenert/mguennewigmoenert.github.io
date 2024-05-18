@@ -1,12 +1,12 @@
 ---
-title: 'Public housing design, racial sorting and welfare: Evidence from New York City public housing 1930-2010'
+title: 'Housing prices, costs and policy: the housing supply equation in Ireland since 1970'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - admin
-#  - Robert Ford
+  - Ronan C. Lyons
 
 # Author notes (optional)
 # author_notes:
@@ -22,16 +22,16 @@ publishDate: '2017-01-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-# publication_types: ['paper-conference']
+publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-# publication: In *Hugo Blox Builder Conference*
-# publication_short: In *ICW*
+publication: In *Hugo Blox Builder Conference*
+publication_short: In *ICW*
 
-abstract: This paper investigates the long-run effect of public housing project design on neighborhood composition and rental prices in New York City from 1930 to 2010. Using a newly assembled dataset on the US census tract level and leveraging the staggered rollout of public housing, I document sizeable effects on racial composition. White population declined in tracts with public housing projects with significant spillover effects to adjacent tracts, while black population increased but only in public housing tracts. The effects on white and black population are driven by a specific project type called the “Tower in the park” – slim brick high-rises and vast green spaces in between. Moreover, rent prices fall by 26% within a 250m radius around “Towers”, indicating negative demand effects. In a cross-sectional analysis, I find that “Towers in the Park” are more associated with higher incarceration rates than non-Towers, though incarceration rates cannot entirely explain spillover effects on white population. Finally, I evaluate the welfare consequences of these externalities using a static neighborhood choice model. The model demonstrates that removing public housing or altering area ratios can increase amenity values and improve welfare.
+abstract: This article examines the responsiveness of new housing supply to prices and costs, using the case of Ireland at quarterly frequency from the 1970s, as well as a county-level panel from the 1990s. Across four error-correction specifications, and supported by an instrumental variables approach, we find the estimated elasticity of new housing supply to prices of +0.9 in the baseline, while that of costs is larger in magnitude (−1.9). We present evidence that responsiveness to prices rose after the 1980s, then fell in the 2000s, before rising again and also that elasticities vary at the county level.
 
 # Summary. An optional shortened abstract.
-# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: Housing has become one of the defining economic, political and social issues across many cities in high-income countries. Building on a growing literature examining housing supply, we examine the responsiveness of housing supply to prices and costs, using the case of Ireland over the last half-century. We do this using data for the country and Dublin at quarterly frequency from the 1970s, as well as a county-level panel from the 1990s, and using four main specifications, in line with best practice for error correction models. We also test how our results vary when switching from our baseline measure of supply (permits) to alternatives (investment, completions and commencements). Under our baseline, the estimated elas- ticity of new housing supply to prices nationally is +0.9 while the elasticity to costs, net of tax reliefs, is larger in magnitude (-1.9). We present evidence that responsive- ness to prices rose after the 1980s, then fell in the 2000s, before rising again. We also document significant heterogeneity in elasticities at the county level, with supply in Dublin among the least responsive to both prices and costs. These findings suggest new avenues for research on the determinants of supply elasticities.
 
 tags:
     - Published
