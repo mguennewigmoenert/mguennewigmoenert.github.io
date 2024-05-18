@@ -19,9 +19,9 @@ main:
   - name: Working Papers
     url: '#projects'
     weight: 30
-#   - name: Publications
-#    url: '#publications'
-#    weight: 40
+   - name: Publications
+    url: '#publications'
+    weight: 40
 #  - name: Teaching
 #    url: '#talks'
 #    weight: 40
