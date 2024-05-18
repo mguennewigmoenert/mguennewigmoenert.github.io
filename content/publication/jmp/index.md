@@ -44,7 +44,8 @@ featured: false
 # - name: Custom Link
 #   url: http://example.org
 
-name: "Paper"
+links:
+ - name: Paper
    url: https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.12491
 # url_pdf: 'uploads/JMP_Moenert_Public_Housing.pdf'
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
