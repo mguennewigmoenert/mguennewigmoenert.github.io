@@ -216,6 +216,7 @@ sections:
       columns: '2'
       view: citation
 
+# Publications
   - block: collection
     id: publications
     content:
@@ -224,9 +225,6 @@ sections:
         folders:
           - publication
         exclude_featured: true
-      buttons:
-        - name: Published
-          tag: Published
     design:
       columns: '2'
       view: citation
