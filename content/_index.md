@@ -217,7 +217,7 @@ sections:
       title: Publiations
       filters:
         folders:
-          - publications
+          - publication
         exclude_featured: true
     design:
       columns: '2'
