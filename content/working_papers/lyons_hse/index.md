@@ -1,12 +1,12 @@
 ---
 title: "Housing prices, costs and policy: the housing supply equation in Ireland since 1970"
 authors:
-- admin
+- Maximilian Günnewig-Mönert
 - Ronan C. Lyons
 # author_notes:
 # - "Equal contribution"
 # - "Equal contribution"
-date: "2024-09-01T00:00:00Z"
+date: "2023-09-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -15,16 +15,17 @@ doi: ""
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]
+# publication_types: ["article-journal"]
 
 # Publication name and optional abbreviated publication name.
-# publication: "*Real Estate Economics*"
-# publication_short: "REE"
+# # publication: "*Journal of Source Themes, 1*(1)"
+publication_short: ""
 
-abstract: This article examines the responsiveness of new housing supply to prices and costs, using the case of Ireland at quarterly frequency from the 1970s, as well as a county-level panel from the 1990s. Across four error-correction specifications, and supported by an instrumental variables approach, we find the estimated elasticity of new housing supply to prices of +0.9 in the baseline, while that of costs is larger in magnitude (−1.9). We present evidence that responsiveness to prices rose after the 1980s, then fell in the 2000s, before rising again and also that elasticities vary at the county level.
+abstract: This paper studies the effects of the first rent control laws in the United States enacted in 1920 New York City and its effects on property prices and rents. While traditional rent control laws stipulate thresholds for rent increases or ceil rents entirely, the 1920 laws gave judges price-setting power. While the city curbed rent increases of more than 25% per year, it gave elected district judges the power to decide in landlord-tenant cases whether a rent increase was “reasonable” or not, giving them discretionary authority to set rents according to their notions of “reasonableness.” We exploit this feature of the 1920 rent control laws by using variations in municipal district court judges. In particular, we use the distance to municipal court boundaries between Republican and Democrat-controlled districts and employ a spatial regression discontinuity design to measure the effects of rent control on asking rents and transaction prices. To do so, we utilize novel rental and property price data from archival conveyance records and listed rents from newspaper ads to build a novel database of housing market outcomes for New York City from 1918 to 1935. We also assemble a judge-level dataset, including political affiliation from the NYC Official City Directory, newspaper articles, and information in the federal US census, including personal background, exploiting their parents’ birthplace as an instrument for political affiliation. Since elected municipal (civil) court judges, we reconstructed historical court boundaries for New York City. We find that in Republican-controlled districts, rents at the boundary jumped by about 25% after the policy had been introduced, while before the introduction of the policy, rent prices were smooth at the boundary. Finally, we do not find an effect on transaction prices.
+
 
 # Summary. An optional shortened abstract.
-# summary: Housing has become one of the defining economic, political and social issues across many cities in high-income countries. Building on a growing literature examining housing supply, we examine the responsiveness of housing supply to prices and costs, using the case of Ireland over the last half-century. We do this using data for the country and Dublin at quarterly frequency from the 1970s, as well as a county-level panel from the 1990s, and using four main specifications, in line with best practice for error correction models. We also test how our results vary when switching from our baseline measure of supply (permits) to alternatives (investment, completions and commencements). Under our baseline, the estimated elas- ticity of new housing supply to prices nationally is +0.9 while the elasticity to costs, net of tax reliefs, is larger in magnitude (-1.9). We present evidence that responsive- ness to prices rose after the 1980s, then fell in the 2000s, before rising again. We also document significant heterogeneity in elasticities at the county level, with supply in Dublin among the least responsive to both prices and costs. These findings suggest new avenues for research on the determinants of supply elasticities.
+# summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
 - Source Themes
@@ -32,11 +33,11 @@ featured: false
 
 # links:
 # - name: ""
-#   url: ""
-url_pdf: https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.12491
-# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+   url: "https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.12491"
+# url_pdf: ''
+# url_code: ''
 # url_dataset: ''
-# url_poster: ''
+# url_poster: https://www.dropbox.com/s/5mfh6iuio8g5wce/nyc_rent_control.pdf?dl=0
 # url_project: ''
 # url_slides: ''
 # url_source: ''
@@ -61,12 +62,5 @@ projects: []
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-# slides: example
+#slides: example
 ---
-{{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the *Slides* button to check out the example.
-{{% /callout %}}
