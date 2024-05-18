@@ -195,7 +195,7 @@ sections:
       title: Job Market Paper
       filters:
         folders:
-          - publication
+          - working_papers
         featured_only: true
     design:
       columns: '2'
@@ -206,17 +206,17 @@ sections:
       title: Working Papers
       filters:
         folders:
-          - publication
+          - working_papers
         exclude_featured: true
     design:
       columns: '2'
       view: citation
-#  - block: collection
-#    id: talks
-#    content:
-#      title: Recent & Upcoming Talks
-#      filters:
-#        folders:
+  - block: collection
+    id: publications
+    content:
+      title: Publiations
+      filters:
+        folders:
 #          - event
 #    design:
 #      columns: '2'
