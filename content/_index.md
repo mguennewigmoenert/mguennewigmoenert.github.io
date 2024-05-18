@@ -214,7 +214,7 @@ sections:
         exclude_featured: true
     design:
       columns: '2'
-      view: card
+      view: citation
 
 # Publications
   - block: collection
