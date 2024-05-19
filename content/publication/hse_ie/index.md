@@ -34,7 +34,7 @@ abstract: This article examines the responsiveness of new housing supply to pric
 summary: Housing has become one of the defining economic, political and social issues across many cities in high-income countries. Building on a growing literature examining housing supply, we examine the responsiveness of housing supply to prices and costs, using the case of Ireland over the last half-century. We do this using data for the country and Dublin at quarterly frequency from the 1970s, as well as a county-level panel from the 1990s, and using four main specifications, in line with best practice for error correction models. We also test how our results vary when switching from our baseline measure of supply (permits) to alternatives (investment, completions and commencements). Under our baseline, the estimated elas- ticity of new housing supply to prices nationally is +0.9 while the elasticity to costs, net of tax reliefs, is larger in magnitude (-1.9). We present evidence that responsive- ness to prices rose after the 1980s, then fell in the 2000s, before rising again. We also document significant heterogeneity in elasticities at the county level, with supply in Dublin among the least responsive to both prices and costs. These findings suggest new avenues for research on the determinants of supply elasticities.
 
 tags:
-  - Published
+  - "Published"
 
 # Display this page in the Featured widget?
 featured: false
