@@ -211,7 +211,7 @@ sections:
       title: Working Papers
       filters:
         publication_types: "article"
-        tag: "Working Paper"
+#        tag: "Working Paper"
         folders:
           - publication
         exclude_featured: true
@@ -225,7 +225,8 @@ sections:
     content:
       title: Publiations
       filters:
-        tag: "Published"
+#        tag: "Published"
+        publication_type: ""
         folders:
           - publication
         exclude_featured: true
