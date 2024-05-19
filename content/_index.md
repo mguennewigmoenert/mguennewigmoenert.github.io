@@ -229,7 +229,6 @@ sections:
         folders:
           - publication
         exclude_featured: true
-        publication_types: "article-journal"
     design:
       columns: '2'
       view: citation
