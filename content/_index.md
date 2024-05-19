@@ -225,6 +225,7 @@ sections:
     content:
       title: Publiations
       filters:
+        tag: "Published"
         folders:
           - publication
         exclude_featured: true
