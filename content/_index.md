@@ -199,7 +199,7 @@ sections:
         folders:
           - publication
         featured_only: true
-        publication_types: ["3"]
+        publication_types: ["Working Paper"]
     design:
       columns: '2'
       view: card
