@@ -225,7 +225,7 @@ sections:
       title: Publiations
       filters:
         folders:
-          - publication
+          - publications
         exclude_featured: true
         publication_types: "article-journal"
     design:
