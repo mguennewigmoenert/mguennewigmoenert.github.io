@@ -197,8 +197,9 @@ sections:
       title: Job Market Paper
       filters:
         folders:
-          - working papers
+          - publication
         featured_only: true
+        publication_types: ["3"]
     design:
       columns: '2'
       view: card
@@ -212,6 +213,7 @@ sections:
         folders:
           - publication
         exclude_featured: true
+        publication_types: ["3"]
     design:
       columns: '2'
       view: citation
