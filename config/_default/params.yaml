@@ -6,8 +6,8 @@
 # Appearance
 
 appearance:
-  mode: light
-  color: white
+#  mode: light
+#  color: white
   theme_day: minimal
   theme_night: minimal
   font: minimal
