@@ -199,7 +199,7 @@ sections:
         folders:
           - publication
         featured_only: true
-        publication_types: ["Working Paper"]
+        publication_types: "Working Paper"
     design:
       columns: '2'
       view: card
@@ -213,7 +213,7 @@ sections:
         folders:
           - publication
         exclude_featured: true
-        publication_types: ["3"]
+        publication_types: "Working Paper"
     design:
       columns: '2'
       view: citation
@@ -227,6 +227,7 @@ sections:
         folders:
           - publication
         exclude_featured: true
+        publication_types: "article-journal"
     design:
       columns: '2'
       view: citation
