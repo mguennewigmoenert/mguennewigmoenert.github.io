@@ -210,7 +210,7 @@ sections:
     content:
       title: Working Papers
       filters:
-        publication_types: "article"
+        publication_types: ["3"]
 #        tag: "Working Paper"
         folders:
           - publication
