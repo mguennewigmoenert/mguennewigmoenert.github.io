@@ -210,7 +210,7 @@ sections:
       title: Working Papers
       filters:
         folders:
-          - working papers
+          - publication
         exclude_featured: true
     design:
       columns: '2'
