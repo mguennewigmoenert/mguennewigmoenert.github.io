@@ -210,7 +210,7 @@ sections:
     content:
       title: Working Papers
       filters:
-        publication_types: ["article"]
+        publication_types: "article"
         folders:
           - publication
         exclude_featured: true
