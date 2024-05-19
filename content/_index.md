@@ -213,7 +213,7 @@ sections:
         folders:
           - publication
         exclude_featured: true
-        publication_types: "Working Paper"
+        publication_types: "preprint"
     design:
       columns: '2'
       view: citation
