@@ -197,7 +197,7 @@ sections:
       title: Job Market Paper
       filters:
         folders:
-          - working_papers
+          - publication
         featured_only: true
     design:
       columns: '2'
