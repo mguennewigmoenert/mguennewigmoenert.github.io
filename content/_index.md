@@ -191,17 +191,17 @@ sections:
 #      columns: '1'
 
 # Job Market Paper
-  - block: collection
-    id: featured
-    content:
-      title: Job Market Paper
-      filters:
-        folders:
-          - working_papers
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
+#  - block: collection
+#    id: featured
+#    content:
+#      title: Job Market Paper
+#      filters:
+#        folders:
+#          - working_papers
+#        featured_only: true
+#    design:
+#      columns: '2'
+#      view: card
 
 # Working Papers
   - block: collection
