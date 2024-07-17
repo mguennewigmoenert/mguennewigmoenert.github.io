@@ -104,10 +104,7 @@ social:
 highlight_name: true
 ---
 
-I am a Job Market Candidate in Economics at Trinity College Dublin under supervision of Prof. Ronan Lyons and affiliated with the Centre for Economics, Policy and History ([СЕРН](https://ceph.ie/)).
-{style="text-align: justify;"}
-
-My research interests lie in the intersection of Urban Economics and Economic History. My research revolves around understanding the development of historical urban policies in the United States over the 20th century.
+I am a Postdoctoral Researcher at the Center for Macroeconomic Research ([CMR](https://cmr.uni-koeln.de/de/)) at the University of Cologne. I obtained my PhD at Trinity College Dublin. My research interests lie in the intersection of Urban Economics, Economic Geography, and Economic History. 
 {style="text-align: justify;"}
 
 My [Job Market Paper](https://github.com/mguennewigmoenert/mguennewigmoenert.github.io/blob/main/static/uploads/JMP_Moenert_Public_Housing.pdf) focuses on estimating the effect of a public housing design called "The tower in the Park" on residential sorting and its welfare consequences over the period from 1930 to 2010. Other research focuses on New York City rent control in the 1920s and how it impacted the wider housing market.
