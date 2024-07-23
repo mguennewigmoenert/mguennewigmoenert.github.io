@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Ph.D. Candidate in Economics
+role: Post-doctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
