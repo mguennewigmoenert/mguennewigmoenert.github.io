@@ -21,7 +21,7 @@ role: Ph.D. Candidate in Economics
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Trinity College Dublin
+  - name: Univeristy of Cologne
     url: https://www.tcd.ie/Economics/
 
 # Short bio (displayed in user profile at end of posts)
@@ -30,8 +30,8 @@ organizations:
 # Interests to show in About widget
 interests:
   - Urban Economics
-  - Economic History
   - Public Economics
+  - Economic History
 
 # Education to show in About widget
 education:
