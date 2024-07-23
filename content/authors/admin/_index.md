@@ -22,7 +22,7 @@ role: Ph.D. Candidate in Economics
 # Organizations/Affiliations to show in About widget
 organizations:
   - name: Univeristy of Cologne
-    url: https://www.tcd.ie/Economics/
+    url: https://economics.uni-koeln.de/en/
 
 # Short bio (displayed in user profile at end of posts)
 # bio: My research interests include distributed robotics, mobile computing and programmable matter.
