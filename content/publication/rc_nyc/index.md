@@ -1,8 +1,7 @@
 ---
-title: "The Impact of Rent Regulations in the 1920s New York City: External Effects and Property Prices"
+title: "Judge for Yourself? The Impact of Controls on Rents in Interwar New York"
 authors:
 - Maximilian Günnewig-Mönert
-- Sun Kyoung Lee
 - Ronan C. Lyons
 # author_notes:
 # - "Equal contribution"
