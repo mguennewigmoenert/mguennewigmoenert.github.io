@@ -8,9 +8,9 @@
 appearance:
   mode: light
   color: green
-  theme_day: Ocean
-  theme_night: Ocean
-  font: Ocean
+  theme_day: Minimal
+  theme_night: Minimal
+  font: Minimal
   font_size: M
 
 # SEO
