@@ -7,7 +7,7 @@
 
 appearance:
 #  mode: light
-#  color: white
+  color: green
   theme_day: minimal
   theme_night: minimal
   font: minimal
