@@ -30,8 +30,8 @@ organizations:
 # Interests to show in About widget
 interests:
   - Urban Economics
+  - Economic Geography
   - Public Economics
-  - Economic History
 
 # Education to show in About widget
 education:
