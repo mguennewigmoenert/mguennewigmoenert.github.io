@@ -21,7 +21,7 @@ publication_types: ["article"]
 # # publication: "*Journal of Source Themes, 1*(1)"
 # publication_short: ""
 
-abstract: This paper studies the effects of the first rent control laws in the United States enacted in 1920 New York City and its effects on property prices and rents. While traditional rent control laws stipulate thresholds for rent increases or ceil rents entirely, the 1920 laws gave judges price-setting power. While the city curbed rent increases of more than 25% per year, it gave elected district judges the power to decide in landlord-tenant cases whether a rent increase was “reasonable” or not, giving them discretionary authority to set rents according to their notions of “reasonableness.” We exploit this feature of the 1920 rent control laws by using variations in municipal district court judges. In particular, we use the distance to municipal court boundaries between Republican and Democrat-controlled districts and employ a spatial regression discontinuity design to measure the effects of rent control on asking rents and transaction prices. To do so, we utilize novel rental and property price data from archival conveyance records and listed rents from newspaper ads to build a novel database of housing market outcomes for New York City from 1918 to 1935. We also assemble a judge-level dataset, including political affiliation from the NYC Official City Directory, newspaper articles, and information in the federal US census, including personal background, exploiting their parents’ birthplace as an instrument for political affiliation. Since elected municipal (civil) court judges, we reconstructed historical court boundaries for New York City. We find that in Republican-controlled districts, rents at the boundary jumped by about 25% after the policy had been introduced, while before the introduction of the policy, rent prices were smooth at the boundary. Finally, we do not find an effect on transaction prices.
+abstract: As cities across the high-income world struggle with housing affordability challenges, rent controls have re-emerged as a popular policy tool. A growing body of research examines the effects of these rent controls, although the literature largely focuses on post-World War II rent controls. In 1920, New York became the first city in the US to introduce rent controls, allowing elected judges to evaluate on a case-by-case basis whether proposed increases were reasonable. The effect of these rent controls, however, is unknown. We examine, for the first time, the effects of these rent controls on market outcomes, using a spatial regression discontinuity design and comprehensive datasets of market rents, from newspaper listings, and judicial districts, including judge characteristics, for New York for the period 1918-1926. We find that rent controls cause a spillover in demand, with market rents in “pro-landlord” judge districts 10% higher than just over the border in “pro-tenant” judge districts.
 
 
 # Summary. An optional shortened abstract.
@@ -38,7 +38,7 @@ featured: false
 # url_pdf: ''
 # url_code: ''
 # url_dataset: ''
-url_poster: https://www.dropbox.com/s/5mfh6iuio8g5wce/nyc_rent_control.pdf?dl=0
+url_pdf: 'uploads/NYC_Interwar_Rent_Controls.pdf'
 # url_project: ''
 # url_slides: ''
 # url_source: ''
