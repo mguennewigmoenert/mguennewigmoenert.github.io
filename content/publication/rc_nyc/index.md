@@ -35,10 +35,9 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-# url_pdf: ''
+url_pdf: 'uploads/NYC_Interwar_Rent_Controls.pdf'
 # url_code: ''
 # url_dataset: ''
-url_pdf: 'uploads/NYC_Interwar_Rent_Controls.pdf'
 # url_project: ''
 # url_slides: ''
 # url_source: ''
