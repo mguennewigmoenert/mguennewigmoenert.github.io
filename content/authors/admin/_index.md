@@ -104,7 +104,7 @@ social:
 highlight_name: true
 ---
 
-I am a Postdoctoral Researcher at the Center for Macroeconomic Research ([CMR](https://cmr.uni-koeln.de/de/)) at the University of Cologne. I obtained my PhD at Trinity College Dublin. My research interests lie in the intersection of Urban Economics, Economic Geography, and Economic History. 
+I am a Postdoctoral Researcher at the Center for Economic Research ([CER](https://cmr.uni-koeln.de/de/)) at the University of Cologne. I obtained my PhD at Trinity College Dublin. My research interests lie in the intersection of Urban Economics, Economic Geography, and Economic History. 
 {style="text-align: justify;"}
 
 My [Job Market Paper](https://github.com/mguennewigmoenert/mguennewigmoenert.github.io/blob/main/static/uploads/JMP_Moenert_Public_Housing.pdf) focuses on estimating the effect of a public housing design called "The tower in the Park" on residential sorting and its welfare consequences over the period from 1930 to 2010. Other research focuses on New York City rent control in the 1920s and how it impacted the wider housing market.
