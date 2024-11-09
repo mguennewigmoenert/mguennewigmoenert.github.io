@@ -21,7 +21,7 @@ role: Post-doctoral Researcher
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Univeristy of Cologne
+  - name: University of Cologne
     url: https://economics.uni-koeln.de/en/
 
 # Short bio (displayed in user profile at end of posts)
