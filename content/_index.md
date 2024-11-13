@@ -240,12 +240,12 @@ sections:
     content:
       title: Contact
       # Contact (add or remove contact options as necessary)
-      email: gnnewigm@tcd.ie
+      email: mguennewig@wiso.uni-koeln.de
       address:
-        street: Trinity Research in Social Sciences (TRiSS), Arts Building, Trinity College Dublin
-        city: Dublin
-        region: Dublin 2
-        country: Ireland
+        street: Student Service Center (SSC, Building 102), Office 3.326, Universitätsstraße 22a
+        city: 50937
+        region: Köln
+        country: Germany
       contact_links:
         - icon: twitter
           icon_pack: fab
