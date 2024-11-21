@@ -18,6 +18,9 @@ doi: ""
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
+publication: "*Trinity Economics Papers*"
+
+# Publication name and optional abbreviated publication name.
 # # publication: "*Journal of Source Themes, 1*(1)"
 # publication_short: ""
 
@@ -35,7 +38,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: 'uploads/NYC_Interwar_Rent_Controls.pdf'
+url_pdf: 'https://ideas.repec.org/p/tcd/tcduee/tep0924.html'
 # url_code: ''
 # url_dataset: ''
 # url_project: ''
