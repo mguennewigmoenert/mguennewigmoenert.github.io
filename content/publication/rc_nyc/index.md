@@ -18,7 +18,7 @@ doi: ""
 publication_types: ["article"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*Trinity Economics Papers*"
+publication: "*TEP Working Paper No. 0924*"
 
 # Publication name and optional abbreviated publication name.
 # # publication: "*Journal of Source Themes, 1*(1)"
