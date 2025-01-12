@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Teaching - Your Name</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ccc;
+    }
+    header .logo {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* MAIN */
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    /* PAGE TITLE */
+    .page-title {
+      font-size: 3rem;
+      font-weight: 300;
+      color: #2e5d50;
+      margin-bottom: 2rem;
+    }
+
+    /* SECTION HEADING */
+    .section-heading {
+      font-size: 1.8rem;
+      color: #2e5d50;
+      margin: 2rem 0 1rem;
+      font-weight: 500;
+    }
+
+    /* COURSE ENTRY LAYOUT */
+    .course-entry {
+      border-top: 1px solid #ccc;
+      padding: 1rem 0;
+    }
+    .course-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+      color: #333;
+    }
+    .course-details {
+      font-size: 0.95rem;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #ccc;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER with Navigation -->
+  <header>
+    <div class="logo">Your Name</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html" style="text-decoration: underline;">Teaching</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Title -->
+    <h1 class="page-title">Teaching</h1>
+
+    <!-- Courses Section -->
+    <h2 class="section-heading">Courses Taught</h2>
+
+    <!-- Course #1 -->
+    <div class="course-entry">
+      <div class="course-title">Course Title 1</div>
+      <div class="course-details">Semester, Year</div>
+      <p>
+        <a href="syllabus1.pdf" target="_blank">Syllabus</a> |
+        <a href="slides1.pdf" target="_blank">Lecture Slides</a>
+      </p>
+    </div>
+
+    <!-- Course #2 -->
+    <div class="course-entry">
+      <div class="course-title">Course Title 2</div>
+      <div class="course-details">Semester, Year</div>
+      <p>
+        <a href="syllabus2.pdf" target="_blank">Syllabus</a> |
+        <a href="slides2.pdf" target="_blank">Lecture Slides</a>
+      </p>
+    </div>
+
+    <!-- Add more courses as needed... -->
+  </main>
+
+  <footer>
+    &copy; 2025 Your Name
+  </footer>
+</body>
+</html>

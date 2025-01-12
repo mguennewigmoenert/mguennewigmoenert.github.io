@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Max</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      color: #333;
+      background-color: #fff;
+      line-height: 1.6;
+    }
+
+    /* HEADER / NAVBAR */
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ccc;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      color: #333;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* MAIN CONTENT LAYOUT */
+    main {
+      display: flex;
+      flex-wrap: wrap; /* ensures it looks okay on mobile, too */
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .image-container {
+      flex: 1 1 300px; /* allow image column to shrink/grow */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .image-container img {
+      max-width: 250px;
+      border-radius: 4px;
+    }
+    .text-container {
+      flex: 2 1 400px; /* allow text column to be larger */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 1rem;
+    }
+    .text-container h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #2e5d50; /* Example color */
+    }
+    .text-container p {
+      margin-bottom: 1rem;
+    }
+    .text-container a {
+      color: #2e5d50; /* Match heading color or any accent color you like */
+      text-decoration: underline;
+    }
+    .text-container a:hover {
+      color: #1b3b34;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #ccc;
+      margin-top: 2rem;
+    }
+
+    /* MEDIA QUERIES (Optional for responsiveness) */
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column; /* stack image/text on smaller screens */
+      }
+      .image-container,
+      .text-container {
+        flex: 1 1 100%;
+      }
+      .image-container img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" style="text-decoration: underline;">Home</a></li>
+        <li><a href="research.html">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- LEFT COLUMN: IMAGE -->
+    <div class="image-container">
+      <!-- Replace with your own photo! -->
+      <img src="https://via.placeholder.com/250" alt="Profile Photo" />
+    </div>
+
+    <!-- RIGHT COLUMN: TEXT -->
+    <div class="text-container">
+      <h2>Your Name</h2>
+      <p>
+        I am an economist with research interests in Macroeconomics and Labor Economics.
+        I’m currently a visiting scholar at [Institution Name]. In the Fall of 2025, I will join
+        [New Institution] as an Assistant Professor. I received my PhD from [University Name] in 2024.
+      </p>
+      <p>My CV can be found <a href="https://github.com/mguennewigmoenert/maxmoenert.github.io/blob/main/files/guennewig_moenert_cv.pdf">here</a>.</p>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2025 Your Name
+  </footer>
+</body>
+</html>

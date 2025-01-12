@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Research - Your Name</title>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      border-bottom: 1px solid #ccc;
+    }
+    header .logo {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    /* MAIN */
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    /* BIG PAGE TITLE (e.g., "Research") */
+    .page-title {
+      font-size: 3rem;
+      font-weight: 300;
+      color: #2e5d50; /* a green-ish tone */
+      margin-bottom: 2rem;
+    }
+
+    /* SECTION HEADINGS (Working Papers, Publications, etc.) */
+    .section-heading {
+      font-size: 1.8rem;
+      color: #2e5d50;
+      margin: 2rem 0 1rem;
+      font-weight: 500;
+    }
+
+    /* PAPER ENTRY LAYOUT */
+    .paper-entry {
+      border-top: 1px solid #ccc;
+      padding: 1rem 0;
+    }
+    .paper-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 0.2rem;
+      color: #333;
+    }
+    .paper-subtitle {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: #555;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Example of togglable details for each paper */
+    details {
+      margin-top: 0.5rem;
+      cursor: pointer;
+    }
+    details summary {
+      outline: none; /* remove default focus outline in some browsers */
+      font-weight: 500;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+    }
+    details summary::-webkit-details-marker {
+      display: none; /* hide default marker in Chrome/Safari */
+    }
+    details[open] summary::after {
+      content: "▲";
+      font-size: 0.7rem;
+      margin-left: 0.3rem;
+    }
+    details summary::after {
+      content: "▼";
+      font-size: 0.7rem;
+      margin-left: 0.3rem;
+    }
+    details .paper-content {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      color: #444;
+    }
+
+    /* FOOTER */
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #777;
+      font-size: 0.9rem;
+      border-top: 1px solid #ccc;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER with Navigation -->
+  <header>
+    <div class="logo">Lukas Mann</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" style="text-decoration: underline;">Research</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <!-- Add more links as needed -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Title -->
+    <h1 class="page-title">Research</h1>
+
+    <!-- Working Papers Section -->
+    <h2 class="section-heading">Working Papers</h2>
+
+    <!-- Paper #1 -->
+    <div class="paper-entry">
+      <div class="paper-title">Spatial Sorting and the Rise of Geographic Inequality</div>
+      <div class="paper-subtitle">
+        Winner of the 2023 Econ JM Best Paper Award | supported by Program for Research on Inequality
+      </div>
+
+      <!-- Optional togglable details -->
+      <details>
+        <summary>Abstract &amp; PDF</summary>
+        <div class="paper-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sit amet pulvinar nisl.</p>
+          <p><a href="SpatialSorting.pdf" target="_blank">Download PDF</a></p>
+        </div>
+      </details>
+    </div>
+
+    <!-- Paper #2 -->
+    <div class="paper-entry">
+      <div class="paper-title">Labor Market Selection and the Dynamics of a Recovery</div>
+      <div class="paper-subtitle">
+        Accepted at JPE:Macro | [new draft - December 2024]
+      </div>
+
+      <details>
+        <summary>Abstract &amp; PDF</summary>
+        <div class="paper-content">
+          <p>Curabitur bibendum ligula et lectus tincidunt ornare. Donec sed felis et orci gravida gravida.</p>
+          <p><a href="LaborMarketSelection.pdf" target="_blank">Download PDF</a></p>
+        </div>
+      </details>
+    </div>
+
+    <!-- Paper #3 -->
+    <div class="paper-entry">
+      <div class="paper-title">
+        Job Amenity Shocks and Labor Reallocation
+      </div>
+      <div class="paper-subtitle">
+        Joint with Sadhika Bagga, Aysegul Sahin, and Gianluca Violante
+      </div>
+
+      <details>
+        <summary>Abstract &amp; PDF</summary>
+        <div class="paper-content">
+          <p>Integer bibendum, dui in molestie eleifend, quam dui interdum enim, at ultricies mi urna a sem.</p>
+          <p><a href="JobAmenityShocks.pdf" target="_blank">Download PDF</a></p>
+        </div>
+      </details>
+    </div>
+
+    <!-- Add more papers as needed... -->
+
+    <!-- Publications Section -->
+    <h2 class="section-heading">Publications</h2>
+
+    <!-- Publication #1 -->
+    <div class="paper-entry">
+      <div class="paper-title">
+        Publication Title Here
+      </div>
+      <div class="paper-subtitle">
+        <em>Journal Name, 2023</em>
+      </div>
+      <details>
+        <summary>Abstract &amp; Link</summary>
+        <div class="paper-content">
+          <p>Short description or abstract for the published article.</p>
+          <p><a href="https://link-to-journal-article" target="_blank">View in Journal</a></p>
+        </div>
+      </details>
+    </div>
+
+    <!-- Add more publications as needed... -->
+  </main>
+
+  <footer>
+    &copy; 2025 Lukas Mann
+  </footer>
+
+</body>
+</html>
