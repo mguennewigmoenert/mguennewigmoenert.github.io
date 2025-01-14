@@ -61,7 +61,6 @@
       flex: 1 1 300px; /* allow image column to shrink/grow */
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       margin-bottom: 2rem;
     }
@@ -73,6 +72,7 @@
       margin-top: 1rem;
       display: flex;
       gap: 1rem;
+      justify-content: center;
     }
     .social-links a {
       text-decoration: none;
@@ -82,6 +82,29 @@
     .social-links a:hover {
       color: #1b3b34;
       text-decoration: underline;
+    }
+
+    .text-container {
+      flex: 2 1 400px; /* allow text column to be larger */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0 1rem;
+    }
+    .text-container h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #2e5d50; /* Example color */
+    }
+    .text-container p {
+      margin-bottom: 1rem;
+    }
+    .text-container a {
+      color: #2e5d50; /* Match heading color or any accent color you like */
+      text-decoration: underline;
+    }
+    .text-container a:hover {
+      color: #1b3b34;
     }
 
     /* FOOTER */
