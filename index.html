@@ -60,6 +60,7 @@
     .image-container {
       flex: 1 1 300px; /* allow image column to shrink/grow */
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       margin-bottom: 2rem;
@@ -68,27 +69,19 @@
       max-width: 250px;
       border-radius: 4px;
     }
-    .text-container {
-      flex: 2 1 400px; /* allow text column to be larger */
+    .social-links {
+      margin-top: 1rem;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      padding: 0 1rem;
+      gap: 1rem;
     }
-    .text-container h2 {
-      font-size: 2rem;
-      margin-bottom: 1rem;
-      color: #2e5d50; /* Example color */
+    .social-links a {
+      text-decoration: none;
+      color: #2e5d50;
+      font-size: 1rem;
     }
-    .text-container p {
-      margin-bottom: 1rem;
-    }
-    .text-container a {
-      color: #2e5d50; /* Match heading color or any accent color you like */
-      text-decoration: underline;
-    }
-    .text-container a:hover {
+    .social-links a:hover {
       color: #1b3b34;
+      text-decoration: underline;
     }
 
     /* FOOTER */
@@ -140,8 +133,12 @@
   <main>
     <!-- LEFT COLUMN: IMAGE -->
     <div class="image-container">
-      <!-- Replace with your own photo! -->
-      <img src="files/wiso_portrait_max.jpg" alt="Maximilian Günnewig-Mönert" />    </div>
+      <img src="files/wiso_portrait_max.jpg" alt="Maximilian Günnewig-Mönert" />
+      <div class="social-links">
+        <a href="https://twitter.com/yourprofile" target="_blank" aria-label="Twitter Profile">Twitter</a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" aria-label="LinkedIn Profile">LinkedIn</a>
+      </div>
+    </div>
 
     <!-- RIGHT COLUMN: TEXT -->
     <div class="text-container">
