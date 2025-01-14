@@ -2,7 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Max</title>
+  <meta name="description" content="Personal website of Maximilian Günnewig-Mönert, post-doctoral researcher at the Center for Economic Research.">
+  <meta name="keywords" content="Maximilian Günnewig-Mönert, Economics, Research, Social Housing, Labor Markets">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <title>Maximilian Günnewig-Mönert</title>
   <style>
     /* General Reset */
     * {
@@ -12,7 +17,7 @@
     }
 
     body {
-      font-family: "Helvetica Neue", Arial, sans-serif;
+      font-family: 'Roboto', Arial, sans-serif;
       color: #333;
       background-color: #fff;
       line-height: 1.6;
@@ -108,6 +113,12 @@
       .image-container img {
         max-width: 100%;
       }
+      header h1 {
+        font-size: 1.2rem;
+      }
+      .text-container h2 {
+        font-size: 1.5rem;
+      }
     }
   </style>
 </head>
@@ -118,9 +129,9 @@
     <h1>Maximilian Günnewig-Mönert</h1>
     <nav>
       <ul>
-        <li><a href="index.html" style="text-decoration: underline;">Home</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="index.html" style="text-decoration: underline;" aria-label="Home">Home</a></li>
+        <li><a href="research.html" aria-label="Research">Research</a></li>
+        <li><a href="teaching.html" aria-label="Teaching">Teaching</a></li>
       </ul>
     </nav>
   </header>
@@ -130,20 +141,20 @@
     <!-- LEFT COLUMN: IMAGE -->
     <div class="image-container">
       <!-- Replace with your own photo! -->
-      <img src="https://via.placeholder.com/250" alt="Profile Photo" />
+      <img src="your-photo.jpg" alt="Maximilian Günnewig-Mönert" />
     </div>
 
     <!-- RIGHT COLUMN: TEXT -->
     <div class="text-container">
       <h2>Maximilian Günnewig-Mönert</h2>
       <p>
-        I am a post-doctoral researcher at the <a href="https://cer.uni-koeln.de/de/" target="_blank"> Center 
-        for Economic Research </a> at the University of Cologne. My research aims to contribute to our 
+        I am a post-doctoral researcher at the <a href="https://cer.uni-koeln.de/de/" target="_blank" aria-label="Center for Economic Research at the University of Cologne">Center 
+        for Economic Research</a> at the University of Cologne. My research aims to contribute to our 
         understanding of what drives the (unequal) distribution of people and economic activity across space, 
         with a focus on the role of social housing and local labor markets. I received my PhD from Trinity 
         College Dublin in 2024.
       </p>
-      <p>My CV can be found <a href="guennewig_moenert_cv.pdf">here</a>.</p>
+      <p>My CV can be found <a href="guennewig_moenert_cv.pdf" aria-label="CV PDF">here</a>.</p>
     </div>
   </main>
 
@@ -151,5 +162,6 @@
   <footer>
     &copy; 2025 Maximilian Günnewig-Mönert
   </footer>
+
 </body>
 </html>
