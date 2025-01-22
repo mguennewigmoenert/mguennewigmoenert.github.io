@@ -58,14 +58,15 @@
       text-align: left;
     }
     .sidebar img {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      margin-bottom: 1rem;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    width: 250px; /* Increased size for better visibility */
+    height: 250px; /* Maintain aspect ratio */
+    border-radius: 20px; /* Rounded corners */
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover; /* Ensures image stays within dimensions */
+  }
   /* Updated styles for .social-links */
   .social-links {
       display: flex;
