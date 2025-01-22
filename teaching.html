@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Teaching - Maximilian Günnewig-Mönert</title>
   <style>
     /* General Reset */
@@ -24,12 +25,12 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      border-bottom: 1px solid #ccc;
+      background-color: #2e5d50;
+      color: white;
     }
     header .logo {
-      font-size: 1.2rem;
+      font-size: 1.5rem;
       font-weight: 600;
-      color: #333;
     }
     nav ul {
       list-style: none;
@@ -38,7 +39,7 @@
     }
     nav ul li a {
       text-decoration: none;
-      color: #333;
+      color: white;
       font-weight: 500;
     }
     nav ul li a:hover {
@@ -54,7 +55,7 @@
 
     /* PAGE TITLE */
     .page-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
       font-weight: 300;
       color: #2e5d50;
       margin-bottom: 2rem;
@@ -79,6 +80,13 @@
       margin-bottom: 0.2rem;
       color: #333;
     }
+    .course-title a {
+      text-decoration: none;
+      color: inherit;
+    }
+    .course-title a:hover {
+      color: #1b3b34;
+    }
     .course-details {
       font-size: 0.95rem;
       color: #555;
@@ -97,7 +105,6 @@
   </style>
 </head>
 <body>
-
   <!-- HEADER with Navigation -->
   <header>
     <div class="logo">Maximilian Günnewig-Mönert</div>
@@ -114,63 +121,31 @@
     <!-- Page Title -->
     <h1 class="page-title">Teaching</h1>
 
-    <!-- Courses Section -->
+    <!-- As Lecturer Section -->
     <h2 class="section-heading">As Lecturer</h2>
-
-    <!-- Course #1 -->
     <div class="course-entry">
       <div class="course-title">
-        <a href="https://klips2.uni-koeln.de/co/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/475875?$scrollTo=toc_overview" 
-           target="_blank" style="text-decoration: none; color: inherit;">
+        <a href="https://klips2.uni-koeln.de/co/ee/ui/ca2/app/desktop/#/slc.tm.cp/student/courses/475875?$scrollTo=toc_overview" target="_blank">
           Public Economics (B.Sc)
         </a>
       </div>
       <div class="course-details">Winter, 2024-25</div>
-      <!--
-      <p>
-        <a href="syllabus1.pdf" target="_blank">Syllabus</a> |
-        <a href="slides1.pdf" target="_blank">Lecture Slides</a>
-      </p>
-      -->
     </div>
 
-
-    <!-- Add more courses as needed... -->
-    <h2 class="section-heading">As Teaching Assitent</h2>
-
-    <!-- Course #2 -->
-      <div class="course-entry">
-        <div class="course-title">Econometrics I (B.Sc)</div>
-        <div class="course-details">Fall , 2022</div>
-        <!--
-        <p>
-          <a href="syllabus2.pdf" target="_blank">Syllabus</a> |
-          <a href="slides2.pdf" target="_blank">Lecture Slides</a>
-        </p>
-        -->
-      </div>
-      <!-- Course #2 -->
-      <div class="course-entry">
-        <div class="course-title">Macroeconomics I (B.Sc)</div>
-        <div class="course-details">Spring, 2021</div>
-        <!--
-        <p>
-          <a href="syllabus2.pdf" target="_blank">Syllabus</a> |
-          <a href="slides2.pdf" target="_blank">Lecture Slides</a>
-        </p>
-        -->
-      </div>
-      <!-- Course #2 -->
-      <div class="course-entry">
-        <div class="course-title">Microeconomics (B.Sc)</div>
-        <div class="course-details">Fall, 2020</div>
-        <!--
-        <p>
-          <a href="syllabus2.pdf" target="_blank">Syllabus</a> |
-          <a href="slides2.pdf" target="_blank">Lecture Slides</a>
-        </p>
-        -->
-      </div>
+    <!-- As Teaching Assistant Section -->
+    <h2 class="section-heading">As Teaching Assistant</h2>
+    <div class="course-entry">
+      <div class="course-title">Econometrics I (B.Sc)</div>
+      <div class="course-details">Fall, 2022</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Macroeconomics I (B.Sc)</div>
+      <div class="course-details">Spring, 2021</div>
+    </div>
+    <div class="course-entry">
+      <div class="course-title">Microeconomics (B.Sc)</div>
+      <div class="course-details">Fall, 2020</div>
+    </div>
   </main>
 
   <footer>
