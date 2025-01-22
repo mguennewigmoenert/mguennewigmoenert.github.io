@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Teaching - Maximilian Günnewig-Mönert</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
-    /* General Reset */
-    * {
+    body {
+      font-family: 'Roboto', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: "Helvetica Neue", Arial, sans-serif;
-      background-color: #fff;
       color: #333;
-      line-height: 1.6;
+      background-color: #f9f9f9;
     }
 
     /* HEADER */
@@ -25,51 +20,52 @@
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
-      background-color: #2e5d50;
-      color: white;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #e0e0e0;
     }
-    header .logo {
+    .logo {
       font-size: 1.5rem;
-      font-weight: 600;
+      font-weight: 500;
+      color: #333;
     }
     nav ul {
       list-style: none;
       display: flex;
-      gap: 1.5rem;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
     }
     nav ul li a {
       text-decoration: none;
-      color: white;
+      color: #333;
       font-weight: 500;
     }
     nav ul li a:hover {
-      text-decoration: underline;
+      color: #555;
     }
 
-    /* MAIN */
+    /* MAIN CONTENT */
     main {
       max-width: 1000px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
-
-    /* PAGE TITLE */
     .page-title {
-      font-size: 2.5rem;
-      font-weight: 300;
-      color: #2e5d50;
-      margin-bottom: 2rem;
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      color: #333;
     }
 
-    /* SECTION HEADING */
     .section-heading {
-      font-size: 1.8rem;
-      color: #2e5d50;
-      margin: 2rem 0 1rem;
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #333;
       font-weight: 500;
     }
 
-    /* COURSE ENTRY LAYOUT */
+    /* COURSE ENTRY */
     .course-entry {
       border-top: 1px solid #ccc;
       padding: 1rem 0;
@@ -77,7 +73,6 @@
     .course-title {
       font-size: 1.2rem;
       font-weight: 600;
-      margin-bottom: 0.2rem;
       color: #333;
     }
     .course-title a {
@@ -85,7 +80,7 @@
       color: inherit;
     }
     .course-title a:hover {
-      color: #1b3b34;
+      color: #555;
     }
     .course-details {
       font-size: 0.95rem;
@@ -97,15 +92,15 @@
     footer {
       text-align: center;
       padding: 1rem;
+      background-color: #f8f9fa;
       color: #777;
-      font-size: 0.9rem;
-      border-top: 1px solid #ccc;
+      border-top: 1px solid #e0e0e0;
       margin-top: 3rem;
     }
   </style>
 </head>
 <body>
-  <!-- HEADER with Navigation -->
+  <!-- HEADER -->
   <header>
     <div class="logo">Maximilian Günnewig-Mönert</div>
     <nav>
@@ -117,11 +112,12 @@
     </nav>
   </header>
 
+  <!-- MAIN CONTENT -->
   <main>
     <!-- Page Title -->
     <h1 class="page-title">Teaching</h1>
 
-    <!-- As Lecturer Section -->
+    <!-- Lecturer Section -->
     <h2 class="section-heading">As Lecturer</h2>
     <div class="course-entry">
       <div class="course-title">
@@ -132,7 +128,7 @@
       <div class="course-details">Winter, 2024-25</div>
     </div>
 
-    <!-- As Teaching Assistant Section -->
+    <!-- Teaching Assistant Section -->
     <h2 class="section-heading">As Teaching Assistant</h2>
     <div class="course-entry">
       <div class="course-title">Econometrics I (B.Sc)</div>
@@ -148,6 +144,7 @@
     </div>
   </main>
 
+  <!-- FOOTER -->
   <footer>
     &copy; 2025 Maximilian Günnewig-Mönert
   </footer>
