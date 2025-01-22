@@ -25,9 +25,6 @@
       margin-bottom: 0.5rem;
       font-size: 2rem;
     }
-    header p {
-      font-size: 1rem;
-    }
 
     nav {
       display: flex;
@@ -65,20 +62,25 @@
       text-align: center;
     }
     .sidebar img {
-      width: 150px;
+      width: 200px; /* Increased size */
       border-radius: 50%;
       margin-bottom: 1rem;
     }
-    .sidebar a {
-      display: block;
-      margin: 0.5rem 0;
-      color: #2e5d50;
-      text-decoration: none;
-      font-size: 1.2rem;
+    .icon-links {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
     }
-    .sidebar a:hover {
+    .icon-links a {
+      color: #2e5d50;
+      font-size: 1.5rem;
+      text-decoration: none;
+    }
+    .icon-links a:hover {
       color: #1b3b34;
     }
+
     .content {
       flex: 2;
     }
@@ -104,7 +106,6 @@
 <body>
   <header>
     <h1>Maximilian Günnewig-Mönert</h1>
-    <!-- <p>Post-Doctoral Researcher | Economics | Social Housing and Labor Markets</p> --->
   </header>
 
   <nav>
@@ -118,10 +119,12 @@
   <main>
     <div class="sidebar">
       <img src="files/wiso_portrait_max.jpg" alt="Maximilian Günnewig-Mönert">
-      <a href="mailto:max@example.com"><i class="fas fa-envelope"></i> Email</a>
-      <a href="https://scholar.google.com/" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-      <a href="https://www.linkedin.com/in/mguennewigmoenert/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-      <a href="https://x.com/max_moenert" target="_blank"><i class="fab fa-twitter"></i> X</a>
+      <div class="icon-links">
+        <a href="mailto:max@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://scholar.google.com/" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+        <a href="https://www.linkedin.com/in/mguennewigmoenert/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/max_moenert" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      </div>
     </div>
 
     <div class="content">
