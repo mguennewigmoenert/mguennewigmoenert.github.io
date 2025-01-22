@@ -15,22 +15,24 @@
       background-color: #f9f9f9;
     }
 
+    /* HEADER */
     header {
-      text-align: center;
-      padding: 1rem 1rem;
-      background-color: #2e5d50;
-      color: white;
-    }
-    header h1 {
-      margin-bottom: 0.5rem;
-      font-size: 2rem;
-    }
-
-    nav {
       display: flex;
-      justify-content: center;
-      background-color: #1b3b34;
-      padding: 0.5rem 0;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .name-and-nav {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+    .name {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #2e5d50;
     }
     nav ul {
       list-style: none;
@@ -41,101 +43,96 @@
     }
     nav ul li a {
       text-decoration: none;
-      color: white;
-      font-size: 1rem;
+      color: #333;
       font-weight: 500;
     }
     nav ul li a:hover {
-      text-decoration: underline;
+      color: #2e5d50;
     }
 
+    /* MAIN CONTENT */
     main {
-      display: flex;
-      flex-wrap: wrap;
-      margin: 2rem auto;
       max-width: 1000px;
-      gap: 2rem;
+      margin: 2rem auto;
       padding: 0 1rem;
     }
-    .sidebar {
-      flex: 1;
+    .profile {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
+      margin-bottom: 2rem;
     }
-    .sidebar img {
-      width: 200px; /* Increased size */
+    .profile img {
+      width: 150px;
+      height: 150px;
       border-radius: 50%;
       margin-bottom: 1rem;
     }
-    .icon-links {
+    .social-links {
       display: flex;
-      justify-content: center;
       gap: 1rem;
+      justify-content: center;
       margin-top: 1rem;
     }
-    .icon-links a {
-      color: #2e5d50;
+    .social-links a {
+      color: #333;
       font-size: 1.5rem;
       text-decoration: none;
     }
-    .icon-links a:hover {
-      color: #1b3b34;
-    }
-
-    .content {
-      flex: 2;
-    }
-    .content h2 {
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
+    .social-links a:hover {
       color: #2e5d50;
     }
-    .content p {
-      margin-bottom: 1rem;
-      line-height: 1.6;
-    }
 
+    /* FOOTER */
     footer {
       text-align: center;
       padding: 1rem;
       margin-top: 2rem;
-      background-color: #2e5d50;
-      color: white;
+      background-color: #f8f9fa;
+      color: #777;
+      border-top: 1px solid #e0e0e0;
     }
   </style>
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
-    <h1>Maximilian Günnewig-Mönert</h1>
+    <div class="name-and-nav">
+      <div class="name">Maximilian Günnewig-Mönert</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="teaching.html">Teaching</a></li>
-    </ul>
-  </nav>
-
+  <!-- MAIN CONTENT -->
   <main>
-    <div class="sidebar">
+    <div class="profile">
       <img src="files/wiso_portrait_max.jpg" alt="Maximilian Günnewig-Mönert">
-      <div class="icon-links">
+      <div class="social-links">
         <a href="mailto:max@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
         <a href="https://scholar.google.com/" target="_blank" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
         <a href="https://www.linkedin.com/in/mguennewigmoenert/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="https://x.com/max_moenert" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
       </div>
     </div>
-
-    <div class="content">
+    <div>
       <h2>About Me</h2>
       <p>I am a post-doctoral researcher at the <a href="https://cer.uni-koeln.de/de/" target="_blank">Center for Economic Research</a> at the University of Cologne. My research focuses on the role of social housing and local labor markets in shaping economic activity across space.</p>
       <p>I received my PhD from Trinity College Dublin in 2024. My CV can be found <a href="guennewig_moenert_cv.pdf">here</a>.</p>
     </div>
   </main>
 
+  <!-- FOOTER -->
   <footer>
     &copy; 2025 Maximilian Günnewig-Mönert
   </footer>
+
 </body>
 </html>
