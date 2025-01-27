@@ -55,19 +55,22 @@
     }
     .sidebar {
       flex: 1;
-      text-align: left;
+      text-align: center;
     }
     .sidebar img {
       width: 200px;
       height: 200px;
       border-radius: 20px;
-      margin-bottom: 1rem;
+      margin: 0 auto 1rem auto;
       object-fit: cover;
     }
     .social-links {
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+      text-align: left;
+      max-width: 200px;
+      margin: 0 auto;
     }
     .social-links a {
       display: flex;
@@ -123,10 +126,10 @@
         gap: 1.5rem;
       }
       .sidebar {
-        text-align: left;
+        text-align: center;
       }
       .social-links {
-        align-items: flex-start;
+        text-align: left;
       }
       .content {
         text-align: center;
@@ -149,6 +152,9 @@
       .sidebar img {
         width: 150px;
         height: 150px;
+      }
+      .social-links {
+        max-width: 150px;
       }
       .content h2 {
         font-size: 1.2rem;
