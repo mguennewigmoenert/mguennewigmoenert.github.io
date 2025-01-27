@@ -55,32 +55,24 @@
     }
     .sidebar {
       flex: 1;
-      text-align: left;
+      text-align: center;
     }
     .sidebar img {
-    width: 210px; /* Increased size for better visibility */
-    height: 210px; /* Maintain aspect ratio */
-    border-radius: 20px; /* Rounded corners */
-    margin-bottom: 1rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    object-fit: cover; /* Ensures image stays within dimensions */
-  }
-  /* Updated styles for .social-links */
-  .social-links {
+      width: 180px;
+      height: 180px;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+      object-fit: cover;
+    }
+    .social-links {
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
-      margin-top: 1rem;
+      align-items: center;
       gap: 0.5rem;
-      padding-left: 0; /* Adjusted padding-left for left alignment */
-      margin-left: 80px; /* Optional: Fine-tune margin for alignment */
-  }
-
+    }
     .social-links a {
       color: #333;
-      font-size: 1.2rem;
+      font-size: 1rem;
       text-decoration: none;
     }
     .social-links a i {
@@ -111,6 +103,58 @@
       background-color: #f8f9fa;
       color: #777;
       border-top: 1px solid #e0e0e0;
+    }
+
+    /* MEDIA QUERIES FOR RESPONSIVENESS */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 1rem;
+      }
+      main {
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .sidebar {
+        text-align: center;
+      }
+      .social-links {
+        align-items: center;
+      }
+      .content {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 1rem;
+      }
+      .name {
+        font-size: 1.2rem;
+      }
+      nav ul {
+        gap: 0.5rem;
+      }
+      main {
+        padding: 0 1rem;
+      }
+      .sidebar img {
+        width: 150px;
+        height: 150px;
+      }
+      .content h2 {
+        font-size: 1.2rem;
+      }
+      .content p {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
