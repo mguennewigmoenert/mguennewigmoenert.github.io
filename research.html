@@ -56,7 +56,6 @@
       margin-bottom: 1.5rem;
       color: #333;
     }
-
     .section-heading {
       font-size: 1.5rem;
       margin-top: 2rem;
@@ -64,9 +63,7 @@
       color: #333;
       font-weight: 500;
     }
-
     /* PAPER ENTRY */
-        
     .paper-entry {
       border-top: 1px solid #ccc;
       padding: 1rem 0;
@@ -113,6 +110,59 @@
       border-top: 1px solid #e0e0e0;
       margin-top: 3rem;
     }
+
+    /* MEDIA QUERIES FOR RESPONSIVENESS */
+    @media (max-width: 768px) {
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 1rem;
+      }
+      main {
+        padding: 0 1rem;
+      }
+      .paper-title {
+        font-size: 1.1rem;
+      }
+      .paper-subtitle {
+        font-size: 0.9rem;
+      }
+      details summary {
+        font-size: 0.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      header {
+        padding: 1rem;
+      }
+      .logo {
+        font-size: 1.2rem;
+      }
+      nav ul {
+        gap: 0.5rem;
+      }
+      main {
+        padding: 0 0.5rem;
+      }
+      .section-heading {
+        font-size: 1.2rem;
+      }
+      .paper-title {
+        font-size: 1rem;
+      }
+      .paper-subtitle {
+        font-size: 0.85rem;
+      }
+      details summary {
+        font-size: 0.85rem;
+      }
+    }
   </style>
 </head>
 <body>
@@ -131,8 +181,6 @@
 
   <!-- MAIN CONTENT -->
   <main>
-    <!-- Page Title -->
-    <!-- <h1 class="page-title">Research</h1> -->
 
     <!-- Working Papers Section -->
     <h2 class="section-heading">Working Papers</h2>
