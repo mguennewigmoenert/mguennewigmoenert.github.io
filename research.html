@@ -3,228 +3,166 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Maximilian Günnewig-Mönert</title>
-  <!-- Google Fonts for consistent typography -->
+  <title>Research - Maximilian Günnewig-Mönert</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <!-- Font Awesome for social media icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
-    /* Global Styles */
     body {
-      font-family: 'Roboto', Arial, sans-serif; /* Main font family */
-      margin: 0; /* Remove default margin */
-      padding: 0; /* Remove default padding */
-      color: #333; /* Default text color */
-      background-color: #f9f9f9; /* Background color */
+      font-family: 'Roboto', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f9f9f9;
     }
 
-    /* HEADER */
-    header {
-      display: flex; /* Use flexbox for horizontal layout */
-      justify-content: space-between; /* Space between logo and navigation */
-      align-items: center; /* Vertically center items */
-      padding: 1rem 2rem; /* Padding around header */
-      background-color: #f8f9fa; /* Header background color */
-      border-bottom: 1px solid #e0e0e0; /* Subtle bottom border */
+  /* HEADER */
+  header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background-color: #f8f9fa;
+      border-bottom: 1px solid #e0e0e0;
+  }
+  .logo {
+      font-size: 1.8rem; /* Increased size */
+      font-weight: 700; /* Made bold */
+      color: #333;
     }
 
-    .logo {
-      font-size: 1.5rem; /* Slightly decreased font size for name */
-      font-weight: 700; /* Make the name bold */
-      color: #333; /* Dark text color */
-    }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  nav ul li a:hover {
+    color: #555;
+  }
 
-    /* Navigation Styles */
-    nav ul {
-      list-style: none; /* Remove default list bullets */
-      display: flex; /* Display navigation links horizontally */
-      gap: 2rem; /* Space between navigation links */
-      margin: 0; /* Remove default margin */
-      padding: 0; /* Remove default padding */
+  /* MAIN CONTENT */
+  main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+    .page-title {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
+      color: #333;
     }
-
-    nav ul li a {
-      text-decoration: none; /* Remove underline from links */
-      color: #333; /* Default link color */
-      font-weight: 500; /* Medium font weight */
-      position: relative; /* Position relative for underline effect */
+    .section-heading {
+      font-size: 1.5rem;
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      color: #333;
+      font-weight: 500;
     }
-
-    nav ul li a:hover {
-      color: #555; /* Change color on hover */
+    /* PAPER ENTRY */
+    .paper-entry {
+      border-top: 1px solid #ccc;
+      padding: 1rem 0;
     }
-
-    nav ul li a.active::after {
-      content: ""; /* Empty content for the underline */
-      display: block; /* Make it a block element */
-      width: 100%; /* Full width underline */
-      height: 2px; /* Thickness of the underline */
-      background-color: #333; /* Underline color */
-      position: absolute; /* Position it absolutely */
-      bottom: -2px; /* Position it just below the link */
-      left: 0; /* Align to the left */
+    .paper-title a:hover {
+      color: #555;
     }
-
-    /* MAIN CONTENT */
-    main {
-      display: flex; /* Use flexbox for sidebar and content layout */
-      max-width: 1000px; /* Maximum width of main content */
-      margin: 2rem auto; /* Center main content with vertical margin */
-      gap: 2rem; /* Space between sidebar and content */
-      padding: 0 1rem; /* Horizontal padding */
+    .paper-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #333;
     }
-
-    /* SIDEBAR (Left) */
-    .sidebar {
-      flex: 1; /* Sidebar takes up 1 part of the available space */
-      text-align: center; /* Center-align content in sidebar */
+    .paper-subtitle {
+      font-size: 0.95rem;
+      font-style: italic;
+      color: #555;
+      margin-bottom: 0.5rem;
     }
-
-    .sidebar img {
-      width: 200px; /* Fixed width for image */
-      height: 200px; /* Fixed height for image */
-      border-radius: 20px; /* Rounded corners */
-      margin: 0 auto 1rem auto; /* Center the image and add margin below */
-      object-fit: cover; /* Ensure the image covers the area without distortion */
+    details {
+      margin-top: 0.5rem;
+      cursor: pointer;
     }
-
-    /* SOCIAL LINKS */
-    .social-links {
-      display: flex; /* Use flexbox for vertical layout */
-      flex-direction: column; /* Stack links vertically */
-      gap: 0.5rem; /* Space between social links */
-      text-align: left; /* Align text to the left */
-      max-width: 200px; /* Maximum width of social links container */
-      margin: 0 auto; /* Center the container horizontally */
+    details summary {
+      font-weight: 500;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
     }
-
-    .social-links a {
-      display: flex; /* Align icon and text horizontally */
-      align-items: center; /* Vertically center the icon and text */
-      color: #333; /* Default link color */
-      font-size: 1rem; /* Standard font size */
-      text-decoration: none; /* Remove underline from links */
+    details summary:hover {
+      color: #555;
     }
-
-    .social-links a i {
-      margin-right: 0.5rem; /* Space between icon and text */
-    }
-
-    .social-links a:hover {
-      color: #555; /* Change color on hover */
-    }
-
-    /* CONTENT (Right) */
-    .content {
-      flex: 2; /* Content takes up 2 parts of the available space */
-    }
-
-    .content h2 {
-      margin-bottom: 1rem; /* Space below the heading */
-      font-size: 1.5rem; /* Heading font size */
-      color: #333; /* Heading color */
-      text-align: center; /* Center-align the heading */
-    }
-
-    .content p {
-      margin-bottom: 1rem; /* Space below paragraphs */
-      line-height: 1.6; /* Improve readability */
-      text-align: center; /* Center-align text */
+    details .paper-content {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      color: #444;
     }
 
     /* FOOTER */
     footer {
-      text-align: center; /* Center-align footer text */
-      padding: 1rem; /* Padding around footer content */
-      margin-top: 2rem; /* Space above the footer */
-      background-color: #f8f9fa; /* Footer background color */
-      color: #777; /* Footer text color */
-      border-top: 1px solid #e0e0e0; /* Subtle top border */
+      text-align: center;
+      padding: 1rem;
+      background-color: #f8f9fa;
+      color: #777;
+      border-top: 1px solid #e0e0e0;
+      margin-top: 3rem;
     }
 
     /* MEDIA QUERIES FOR RESPONSIVENESS */
-
-    /* For screens up to 768px wide (e.g., tablets and small desktops) */
     @media (max-width: 768px) {
       header {
-        flex-direction: column; /* Stack logo and navigation vertically */
-        align-items: flex-start; /* Align items to the left */
+        flex-direction: column;
+        align-items: flex-start;
       }
-
       nav ul {
-        flex-direction: column; /* Stack navigation links vertically */
-        gap: 1rem; /* Increase gap between links */
-        width: 100%; /* Make navigation take full width */
-        margin-top: 1rem; /* Add space above navigation */
+        flex-direction: column;
+        gap: 1rem;
+        width: 100%;
+        margin-top: 1rem;
       }
-
       main {
-        flex-direction: column; /* Stack sidebar and content vertically */
-        gap: 1.5rem; /* Increase gap between sections */
+        padding: 0 1rem;
       }
-
-      .sidebar {
-        text-align: center; /* Center-align sidebar content */
-      }
-
-      .social-links {
-        text-align: left; /* Keep social links text aligned to the left */
-      }
-
-      .content {
-        text-align: center; /* Center-align main content */
-      }
-
-      .section-heading {
-        font-size: 1.3rem; /* Slightly reduce heading size */
-      }
-
       .paper-title {
-        font-size: 1.1rem; /* Slightly reduce paper title size */
+        font-size: 1.1rem;
       }
-
       .paper-subtitle {
-        font-size: 0.9rem; /* Slightly reduce subtitle size */
+        font-size: 0.9rem;
+      }
+      details summary {
+        font-size: 0.9rem;
       }
     }
 
-    /* For screens up to 480px wide (e.g., mobile phones) */
     @media (max-width: 480px) {
       header {
-        padding: 1rem; /* Reduce padding for smaller screens */
+        padding: 1rem;
       }
-
       .logo {
-        font-size: 1.5rem; /* Further reduce logo font size */
+        font-size: 1.2rem;
       }
-
       nav ul {
-        gap: 0.5rem; /* Reduce gap between navigation links */
+        gap: 0.5rem;
       }
-
       main {
-        padding: 0 1rem; /* Maintain horizontal padding */
+        padding: 0 0.5rem;
       }
-
-      .sidebar img {
-        width: 150px; /* Reduce image width */
-        height: 150px; /* Reduce image height */
-      }
-
-      .social-links {
-        max-width: 150px; /* Reduce maximum width of social links */
-      }
-
       .section-heading {
-        font-size: 1.2rem; /* Further reduce heading size */
+        font-size: 1.2rem;
       }
-
       .paper-title {
-        font-size: 1rem; /* Further reduce paper title size */
+        font-size: 1rem;
       }
-
       .paper-subtitle {
-        font-size: 0.85rem; /* Further reduce subtitle size */
+        font-size: 0.85rem;
+      }
+      details summary {
+        font-size: 0.85rem;
       }
     }
   </style>
@@ -233,11 +171,11 @@
 
   <!-- HEADER -->
   <header>
-    <div class="logo">Maximilian Günnewig-Mönert</div> <!-- Name in logo with increased size and boldness -->
+    <div class="logo">Maximilian Günnewig-Mönert</div>
     <nav>
       <ul>
-        <li><a href="index.html" class="active">Home</a></li> <!-- Active link with underline -->
-        <li><a href="research.html">Research</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" style="text-decoration: underline;">Research</a></li>
         <li><a href="teaching.html">Teaching</a></li>
       </ul>
     </nav>
@@ -245,124 +183,119 @@
 
   <!-- MAIN CONTENT -->
   <main>
-    <!-- Left Sidebar -->
-    <div class="sidebar">
-      <img src="files/wiso_portrait_max.jpg" alt="Maximilian Günnewig-Mönert"> <!-- Profile Image -->
-      <div class="social-links">
-        <a href="mailto:mguennewig@wiso.uni-koeln.de"><i class="fas fa-envelope"></i> Email</a>
-        <a href="https://scholar.google.com/citations?user=Ik3GGC4AAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
-        <a href="https://www.linkedin.com/in/mguennewigmoenert/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        <a href="https://x.com/max_moenert" target="_blank"><i class="fab fa-twitter"></i> X</a>
+
+    <!-- Working Papers Section -->
+    <h2 class="section-heading">Working Papers</h2>
+
+    <div class="paper-entry">
+      <div class="paper-title">Public Housing Design, Racial Sorting and Welfare</div>
+      <div class="paper-subtitle">New Draft Coming Soon</div>
+      <details>
+        <summary>Abstract &amp; Link</summary>
+        <div class="paper-content">
+          <p>This paper investigates the long-run effect of public housing project design on neighborhood composition...</p>
+        </div>
+      </details>
+    </div>
+
+    <div class="paper-entry">
+      <div class="paper-title">
+        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5033903" 
+           target="_blank">
+           Judge for Yourself? The Impact of Controls on Rents in Interwar New York
+        </a>
+      </div>
+      <div class="paper-subtitle">
+        Joint with <a href="https://www.ronanlyons.com/" target="_blank">Ronan Lyons</a>
+      </div>
+      <div class="paper-journal">
+        TEP Working Paper No. 0924 (under review)
+      </div>
+      <details>
+        <summary>Abstract</summary>
+        <div class="paper-content">
+          <p>This paper examines the impact of early 20th-century rent control laws in New York City (NYC), using a 
+            Regression Discontinuity Design (RDD) to analyze the effects on market rents near municipal court district 
+            boundaries. We focus on rent regulations introduced in 1920, where judges had discretion to determine rent 
+            increases and did so influenced by their partisan affiliations. Using a dataset of over 12,000 rental 
+            listings from the New York Times and records of 125 district judges, we find that market rents jumped by 
+            almost 10% crossing from Democrat- to Republican-controlled districts after the policy was implemented. A 
+            causal interpretation is supported not only by a rich set of controls but also by the lack of any discontinuity 
+            just before these controls were introduced or after. Our findings contribute new evidence on judicial discretion's 
+            role in shaping housing market outcomes and provide insights into early rent control policies, highlighting their 
+            distortionary effects on rental markets before World War II.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- Publications Section -->
+    <h2 class="section-heading">Publications</h2>
+
+    <div class="paper-entry">
+      <div class="paper-title">
+        <a href="https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.12491" 
+           target="_blank">
+          Housing Prices, Costs, and Policy: The housing supply equation in Ireland since 1970
+        </a>
+      </div>
+      <div class="paper-subtitle">
+        Joint with <a href="https://www.ronanlyons.com/" target="_blank">Ronan Lyons</a>
+      </div>
+      <div class="paper-journal">
+        Real Estate Economics, 2024
+      </div>
+      <details>
+        <summary>Abstract</summary>
+        <div class="paper-content">
+          <p>This article examines the responsiveness of new housing supply to prices and costs, using the case of Ireland at 
+            quarterly frequency from the 1970s, as well as a county-level panel from the 1990s. Across four error-correction 
+            specifications, and supported by an instrumental variables approach, we find the estimated elasticity of new 
+            housing supply to prices of +0.9 in the baseline, while that of costs is larger in magnitude (-1.9). We present 
+            evidence that responsiveness to prices rose after the 1980s, then fell in the 2000s, before rising again and also that 
+            elasticities vary at the county level.</p>
+        </div>
+      </details>
+    </div>
+
+    <!-- Work in Progress Section -->
+    <h2 class="section-heading">Work in Progress</h2>
+
+    <div class="paper-entry">
+      <div class="paper-title">Public Housing and Labor Market Outcomes</div>
+      <div class="paper-subtitle">
+        Joint with <a href="https://sites.google.com/view/raoulvanmaarseveen/home" target="_blank">Raoul van Maarseveen</a> and 
+        <a href="https://sites.google.com/view/siegloch/" target="_blank">Sebastian Siegloch</a>
       </div>
     </div>
 
-    <!-- Right Content -->
-    <div class="content">
-      <h2 class="section-heading">Working Papers</h2> <!-- Section Heading -->
-      <div class="paper-entry">
-        <div class="paper-title">Public Housing Design, Racial Sorting and Welfare</div> <!-- Paper Title -->
-        <div class="paper-subtitle">New Draft Coming Soon</div> <!-- Paper Subtitle -->
-        <details>
-          <summary>Abstract &amp; Link</summary> <!-- Expandable Summary -->
-          <div class="paper-content">
-            <p>This paper investigates the long-run effect of public housing project design on neighborhood composition...</p> <!-- Paper Abstract -->
-          </div>
-        </details>
+    <div class="paper-entry">
+      <div class="paper-title">The Geography of Labour Hoarding</div>
+      <div class="paper-subtitle">
+        Joint with <a href="https://filippo-bmec.github.io/" target="_blank">Filippo Berti Mecocci</a>
       </div>
+    </div>
 
-      <div class="paper-entry">
-        <div class="paper-title">
-          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5033903" target="_blank">
-            Judge for Yourself? The Impact of Controls on Rents in Interwar New York
-          </a>
-        </div> <!-- Paper Title with Link -->
-        <div class="paper-subtitle">
-          Joint with <a href="https://www.ronanlyons.com/" target="_blank">Ronan Lyons</a> <!-- Co-author Link -->
-        </div> <!-- Paper Subtitle with Co-author -->
-        <div class="paper-journal">
-          TEP Working Paper No. 0924 (under review) <!-- Publication Info -->
-        </div>
-        <details>
-          <summary>Abstract</summary> <!-- Expandable Summary -->
-          <div class="paper-content">
-            <p>This paper examines the impact of early 20th-century rent control laws in New York City (NYC), using a 
-              Regression Discontinuity Design (RDD) to analyze the effects on market rents near municipal court district 
-              boundaries. We focus on rent regulations introduced in 1920, where judges had discretion to determine rent 
-              increases and did so influenced by their partisan affiliations. Using a dataset of over 12,000 rental 
-              listings from the New York Times and records of 125 district judges, we find that market rents jumped by 
-              almost 10% crossing from Democrat- to Republican-controlled districts after the policy was implemented. A 
-              causal interpretation is supported not only by a rich set of controls but also by the lack of any discontinuity 
-              just before these controls were introduced or after. Our findings contribute new evidence on judicial discretion's 
-              role in shaping housing market outcomes and provide insights into early rent control policies, highlighting their 
-              distortionary effects on rental markets before World War II.</p> <!-- Paper Abstract -->
-          </div>
-        </details>
+    <div class="paper-entry">
+      <div class="paper-title">Supply effects of Social Housing</div>
+      <div class="paper-subtitle">
+        Joint with <a href="https://sites.google.com/view/lauraarnemann" target="_blank">Laura Arnemann</a> and 
+        <a href="https://sites.google.com/view/siegloch/" target="_blank">Sebastian Siegloch</a>
       </div>
+    </div>
 
-      <!-- Additional Paper Entries... -->
-      <h2 class="section-heading">Publications</h2> <!-- Publications Section Heading -->
-      <div class="paper-entry">
-        <div class="paper-title">
-          <a href="https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.12491" target="_blank">
-            Housing Prices, Costs, and Policy: The housing supply equation in Ireland since 1970
-          </a>
-        </div> <!-- Paper Title with Link -->
-        <div class="paper-subtitle">
-          Joint with <a href="https://www.ronanlyons.com/" target="_blank">Ronan Lyons</a> <!-- Co-author Link -->
-        </div> <!-- Paper Subtitle with Co-author -->
-        <div class="paper-journal">
-          Real Estate Economics, 2024 <!-- Publication Info -->
-        </div>
-        <details>
-          <summary>Abstract</summary> <!-- Expandable Summary -->
-          <div class="paper-content">
-            <p>This article examines the responsiveness of new housing supply to prices and costs, using the case of Ireland at 
-              quarterly frequency from the 1970s, as well as a county-level panel from the 1990s. Across four error-correction 
-              specifications, and supported by an instrumental variables approach, we find the estimated elasticity of new 
-              housing supply to prices of +0.9 in the baseline, while that of costs is larger in magnitude (-1.9). We present 
-              evidence that responsiveness to prices rose after the 1980s, then fell in the 2000s, before rising again and also that 
-              elasticities vary at the county level.</p> <!-- Paper Abstract -->
-          </div>
-        </details>
+    <div class="paper-entry">
+      <div class="paper-title">Thee effects of Mass Layoffs on Real Estate Markets</div>
+      <div class="paper-subtitle">
+        Joint with <a href="https://www.nber.org/people/jyotsana_kala?page=1&perPage=50" target="_blank">Jyotsana Kala</a> and 
+        <a href="https://www.roozbehfmoghadam.com/" target="_blank">Roozbeh Moghadam</a>
       </div>
+    </div>
+  </main>
 
-      <h2 class="section-heading">Work in Progress</h2> <!-- Work in Progress Section Heading -->
-      <div class="paper-entry">
-        <div class="paper-title">Public Housing and Labor Market Outcomes</div> <!-- Paper Title -->
-        <div class="paper-subtitle">
-          Joint with <a href="https://sites.google.com/view/raoulvanmaarseveen/home" target="_blank">Raoul van Maarseveen</a> and 
-          <a href="https://sites.google.com/view/siegloch/" target="_blank">Sebastian Siegloch</a> <!-- Co-author Links -->
-        </div> <!-- Paper Subtitle with Co-authors -->
-      </div>
+  <!-- FOOTER -->
+  <footer>
+    &copy; 2025 Maximilian Günnewig-Mönert
+  </footer>
 
-      <div class="paper-entry">
-        <div class="paper-title">The Geography of Labour Hoarding</div> <!-- Paper Title -->
-        <div class="paper-subtitle">
-          Joint with <a href="https://filippo-bmec.github.io/" target="_blank">Filippo Berti Mecocci</a> <!-- Co-author Link -->
-        </div> <!-- Paper Subtitle with Co-author -->
-      </div>
-
-      <div class="paper-entry">
-        <div class="paper-title">Supply effects of Social Housing</div> <!-- Paper Title -->
-        <div class="paper-subtitle">
-          Joint with <a href="https://sites.google.com/view/lauraarnemann" target="_blank">Laura Arnemann</a> and 
-          <a href="https://sites.google.com/view/siegloch/" target="_blank">Sebastian Siegloch</a> <!-- Co-author Links -->
-        </div> <!-- Paper Subtitle with Co-authors -->
-      </div>
-
-      <div class="paper-entry">
-        <div class="paper-title">The Effects of Mass Layoffs on Real Estate Markets</div> <!-- Corrected "Thee" to "The" -->
-        <div class="paper-subtitle">
-          Joint with <a href="https://www.nber.org/people/jyotsana_kala?page=1&perPage=50" target="_blank">Jyotsana Kala</a> and 
-          <a href="https://www.roozbehfmoghadam.com/" target="_blank">Roozbeh Moghadam</a> <!-- Co-author Links -->
-        </div> <!-- Paper Subtitle with Co-authors -->
-      </div>
-    </main>
-
-    <!-- FOOTER -->
-    <footer>
-      &copy; 2025 Maximilian Günnewig-Mönert <!-- Copyright -->
-    </footer>
-
-  </body>
+</body>
 </html>
