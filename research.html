@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research - Maximilian Günnewig-Mönert</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
       font-family: 'Roboto', Arial, sans-serif;
@@ -23,7 +24,7 @@
       background-color: #f8f9fa;
       border-bottom: 1px solid #e0e0e0;
     }
-    .logo {
+    .name {
       font-size: 1.5rem;
       font-weight: 500;
       color: #333;
@@ -46,59 +47,88 @@
 
     /* MAIN CONTENT */
     main {
+      display: flex;
       max-width: 1000px;
       margin: 2rem auto;
+      gap: 2rem;
       padding: 0 1rem;
     }
-    .page-title {
-      font-size: 2rem;
-      font-weight: 500;
-      margin-bottom: 1.5rem;
-      color: #333;
+    .sidebar {
+      flex: 1;
+      text-align: center;
     }
+    .sidebar img {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      margin: 0 auto 1rem auto;
+      object-fit: cover;
+    }
+    .social-links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: left;
+      max-width: 200px;
+      margin: 0 auto;
+    }
+    .social-links a {
+      display: flex;
+      align-items: center;
+      color: #333;
+      font-size: 1rem;
+      text-decoration: none;
+    }
+    .social-links a i {
+      margin-right: 0.5rem;
+    }
+    .social-links a:hover {
+      color: #555;
+    }
+
+    .content {
+      flex: 2;
+    }
+    .content h2 {
+      margin-bottom: 1rem;
+      font-size: 1.5rem;
+      color: #333;
+      text-align: center;
+    }
+    .content p, .content .paper-content {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+
     .section-heading {
       font-size: 1.5rem;
       margin-top: 2rem;
       margin-bottom: 1rem;
-      color: #333;
-      font-weight: 500;
+      text-align: center;
     }
-    /* PAPER ENTRY */
+
     .paper-entry {
-      border-top: 1px solid #ccc;
+      margin-bottom: 2rem;
+      text-align: center;
       padding: 1rem 0;
-    }
-    .paper-title a:hover {
-      color: #555;
     }
     .paper-title {
       font-size: 1.2rem;
       font-weight: 600;
+    }
+    .paper-title a {
+      text-decoration: none;
       color: #333;
+    }
+    .paper-title a:hover {
+      color: #555;
     }
     .paper-subtitle {
       font-size: 0.95rem;
       font-style: italic;
       color: #555;
       margin-bottom: 0.5rem;
-    }
-    details {
-      margin-top: 0.5rem;
-      cursor: pointer;
-    }
-    details summary {
-      font-weight: 500;
-      font-size: 0.95rem;
-      display: inline-flex;
-      align-items: center;
-    }
-    details summary:hover {
-      color: #555;
-    }
-    details .paper-content {
-      margin-top: 0.5rem;
-      font-size: 0.95rem;
-      color: #444;
     }
 
     /* FOOTER */
@@ -124,15 +154,22 @@
         margin-top: 1rem;
       }
       main {
-        padding: 0 1rem;
+        flex-direction: column;
+        gap: 1.5rem;
+      }
+      .sidebar {
+        text-align: center;
+      }
+      .content {
+        text-align: center;
+      }
+      .section-heading {
+        font-size: 1.3rem;
       }
       .paper-title {
         font-size: 1.1rem;
       }
       .paper-subtitle {
-        font-size: 0.9rem;
-      }
-      details summary {
         font-size: 0.9rem;
       }
     }
@@ -141,14 +178,21 @@
       header {
         padding: 1rem;
       }
-      .logo {
+      .name {
         font-size: 1.2rem;
       }
       nav ul {
         gap: 0.5rem;
       }
       main {
-        padding: 0 0.5rem;
+        padding: 0 1rem;
+      }
+      .sidebar img {
+        width: 150px;
+        height: 150px;
+      }
+      .social-links {
+        max-width: 150px;
       }
       .section-heading {
         font-size: 1.2rem;
@@ -159,9 +203,6 @@
       .paper-subtitle {
         font-size: 0.85rem;
       }
-      details summary {
-        font-size: 0.85rem;
-      }
     }
   </style>
 </head>
@@ -169,7 +210,7 @@
 
   <!-- HEADER -->
   <header>
-    <div class="logo">Maximilian Günnewig-Mönert</div>
+    <div class="name">Maximilian Günnewig-Mönert</div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -181,111 +222,31 @@
 
   <!-- MAIN CONTENT -->
   <main>
+    <!-- Left Sidebar -->
+    <div class="sidebar">
+      <img src="files/wiso_portrait_max.jpg" alt="Maximilian Günnewig-Mönert">
+      <div class="social-links">
+        <a href="mailto:mguennewig@wiso.uni-koeln.de"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://scholar.google.com/citations?user=Ik3GGC4AAAAJ&hl=en" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+        <a href="https://www.linkedin.com/in/mguennewigmoenert/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://x.com/max_moenert" target="_blank"><i class="fab fa-twitter"></i> X</a>
+      </div>
+    </div>
 
-    <!-- Working Papers Section -->
-    <h2 class="section-heading">Working Papers</h2>
-
-    <div class="paper-entry">
-      <div class="paper-title">Public Housing Design, Racial Sorting and Welfare</div>
-      <div class="paper-subtitle">New Draft Coming Soon</div>
-      <details>
-        <summary>Abstract &amp; Link</summary>
-        <div class="paper-content">
-          <p>This paper investigates the long-run effect of public housing project design on neighborhood composition...</p>
+    <!-- Right Content -->
+    <div class="content">
+      <h2 class="section-heading">Working Papers</h2>
+      <div class="paper-entry">
+        <div class="paper-title">Public Housing Design, Racial Sorting and Welfare</div>
+        <div class="paper-subtitle">New Draft Coming Soon</div>
+      </div>
+      <div class="paper-entry">
+        <div class="paper-title">
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5033903" target="_blank">
+            Judge for Yourself? The Impact of Controls on Rents in Interwar New York
+          </a>
         </div>
-      </details>
-    </div>
-
-    <div class="paper-entry">
-      <div class="paper-title">
-        <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5033903" 
-           target="_blank">
-           Judge for Yourself? The Impact of Controls on Rents in Interwar New York
-        </a>
-      </div>
-      <div class="paper-subtitle">
-        Joint with <a href="https://www.ronanlyons.com/" target="_blank">Ronan Lyons</a>
-      </div>
-      <div class="paper-journal">
-        TEP Working Paper No. 0924 (under review)
-      </div>
-      <details>
-        <summary>Abstract</summary>
-        <div class="paper-content">
-          <p>This paper examines the impact of early 20th-century rent control laws in New York City (NYC), using a 
-            Regression Discontinuity Design (RDD) to analyze the effects on market rents near municipal court district 
-            boundaries. We focus on rent regulations introduced in 1920, where judges had discretion to determine rent 
-            increases and did so influenced by their partisan affiliations. Using a dataset of over 12,000 rental 
-            listings from the New York Times and records of 125 district judges, we find that market rents jumped by 
-            almost 10% crossing from Democrat- to Republican-controlled districts after the policy was implemented. A 
-            causal interpretation is supported not only by a rich set of controls but also by the lack of any discontinuity 
-            just before these controls were introduced or after. Our findings contribute new evidence on judicial discretion's 
-            role in shaping housing market outcomes and provide insights into early rent control policies, highlighting their 
-            distortionary effects on rental markets before World War II.</p>
-        </div>
-      </details>
-    </div>
-
-    <!-- Publications Section -->
-    <h2 class="section-heading">Publications</h2>
-
-    <div class="paper-entry">
-      <div class="paper-title">
-        <a href="https://onlinelibrary.wiley.com/doi/10.1111/1540-6229.12491" 
-           target="_blank">
-          Housing Prices, Costs, and Policy: The housing supply equation in Ireland since 1970
-        </a>
-      </div>
-      <div class="paper-subtitle">
-        Joint with <a href="https://www.ronanlyons.com/" target="_blank">Ronan Lyons</a>
-      </div>
-      <div class="paper-journal">
-        Real Estate Economics, 2024
-      </div>
-      <details>
-        <summary>Abstract</summary>
-        <div class="paper-content">
-          <p>This article examines the responsiveness of new housing supply to prices and costs, using the case of Ireland at 
-            quarterly frequency from the 1970s, as well as a county-level panel from the 1990s. Across four error-correction 
-            specifications, and supported by an instrumental variables approach, we find the estimated elasticity of new 
-            housing supply to prices of +0.9 in the baseline, while that of costs is larger in magnitude (-1.9). We present 
-            evidence that responsiveness to prices rose after the 1980s, then fell in the 2000s, before rising again and also that 
-            elasticities vary at the county level.</p>
-        </div>
-      </details>
-    </div>
-
-    <!-- Work in Progress Section -->
-    <h2 class="section-heading">Work in Progress</h2>
-
-    <div class="paper-entry">
-      <div class="paper-title">Public Housing and Labor Market Outcomes</div>
-      <div class="paper-subtitle">
-        Joint with <a href="https://sites.google.com/view/raoulvanmaarseveen/home" target="_blank">Raoul van Maarseveen</a> and 
-        <a href="https://sites.google.com/view/siegloch/" target="_blank">Sebastian Siegloch</a>
-      </div>
-    </div>
-
-    <div class="paper-entry">
-      <div class="paper-title">The Geography of Labour Hoarding</div>
-      <div class="paper-subtitle">
-        Joint with <a href="https://filippo-bmec.github.io/" target="_blank">Filippo Berti Mecocci</a>
-      </div>
-    </div>
-
-    <div class="paper-entry">
-      <div class="paper-title">Supply effects of Social Housing</div>
-      <div class="paper-subtitle">
-        Joint with <a href="https://sites.google.com/view/lauraarnemann" target="_blank">Laura Arnemann</a> and 
-        <a href="https://sites.google.com/view/siegloch/" target="_blank">Sebastian Siegloch</a>
-      </div>
-    </div>
-
-    <div class="paper-entry">
-      <div class="paper-title">Thee effects of Mass Layoffs on Real Estate Markets</div>
-      <div class="paper-subtitle">
-        Joint with <a href="https://www.nber.org/people/jyotsana_kala?page=1&perPage=50" target="_blank">Jyotsana Kala</a> and 
-        <a href="https://www.roozbehfmoghadam.com/" target="_blank">Roozbeh Moghadam</a>
+        <div class="paper-subtitle">Joint with <a href="https://www.ronanlyons.com/" target="_blank">Ronan Lyons</a></div>
       </div>
     </div>
   </main>
