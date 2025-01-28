@@ -32,7 +32,7 @@
       color: #333; /* Dark text color */
     }
     /* Navigation Styles */
-      nav ul {
+    nav ul {
       list-style: none; /* Remove default list bullets */
       display: flex; /* Display navigation links horizontally */
       gap: 2rem; /* Space between navigation links */
@@ -48,7 +48,16 @@
     nav ul li a:hover {
       color: #555; /* Change color on hover */
     }
-
+    nav ul li a.active::after {
+      content: ""; /* Create a pseudo-element */
+      display: block; /* Make it behave like a block element */
+      width: 100%; /* Full-width underline */
+      height: 2px; /* Thickness of the underline */
+      background-color: #333; /* Color of the underline */
+      position: absolute; /* Position relative to the link */
+      bottom: -3px; /* Place the underline slightly below the link */
+      left: 0; /* Align the underline to the left */
+    }
     /* MAIN CONTENT */
     main {
       max-width: 1000px;
