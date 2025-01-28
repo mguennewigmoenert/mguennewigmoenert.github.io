@@ -15,36 +15,48 @@
       background-color: #f9f9f9;
     }
 
-  /* HEADER */
-  header {
+    /* HEADER */
+    header {
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 1rem 2rem;
       background-color: #f8f9fa;
       border-bottom: 1px solid #e0e0e0;
-  }
-  .logo {
+    }
+    .logo {
       font-size: 1.5rem; /* Increased size */
       font-weight: 700; /* Made bold */
       color: #333;
     }
 
-  nav ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 500;
-  }
-  nav ul li a:hover {
-    color: #555;
-  }
+    /* NAVIGATION LINKS */
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      position: relative;
+    }
+    nav ul li a:hover {
+      color: #555;
+    }
+    nav ul li a.active::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 2px;
+      background-color: #333;
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+    }
 
   /* MAIN CONTENT */
   main {
