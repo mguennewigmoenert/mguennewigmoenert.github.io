@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Research - Maximilian Günnewig-Mönert</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <style>
     body {
       font-family: 'Roboto', Arial, sans-serif;
@@ -24,7 +23,7 @@
       background-color: #f8f9fa;
       border-bottom: 1px solid #e0e0e0;
     }
-    .name {
+    .logo {
       font-size: 1.5rem;
       font-weight: 500;
       color: #333;
@@ -40,106 +39,66 @@
       text-decoration: none;
       color: #333;
       font-weight: 500;
-      position: relative;
     }
     nav ul li a:hover {
       color: #555;
     }
-    nav ul li a[aria-current="page"]::after {
-      content: "";
-      display: block;
-      width: 100%;
-      height: 2px;
-      background-color: #333;
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-    }
 
     /* MAIN CONTENT */
     main {
-      display: flex;
       max-width: 1000px;
       margin: 2rem auto;
-      gap: 2rem;
       padding: 0 1rem;
     }
-    .sidebar {
-      flex: 1;
-      text-align: center;
-    }
-    .sidebar img {
-      width: 200px;
-      height: 200px;
-      border-radius: 20px;
-      margin: 0 auto 1rem auto;
-      object-fit: cover;
-    }
-    .social-links {
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: left;
-      max-width: 200px;
-      margin: 0 auto;
-    }
-    .social-links a {
-      display: flex;
-      align-items: center;
+    .page-title {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 1.5rem;
       color: #333;
-      font-size: 1rem;
-      text-decoration: none;
     }
-    .social-links a i {
-      margin-right: 0.5rem;
-    }
-    .social-links a:hover {
-      color: #555;
-    }
-
-    .content {
-      flex: 2;
-    }
-    .content h2 {
-      margin-bottom: 1rem;
-      font-size: 1.5rem;
-      color: #333;
-      text-align: center;
-    }
-    .content p, .content .paper-content {
-      margin-bottom: 1rem;
-      line-height: 1.6;
-      text-align: center;
-    }
-
     .section-heading {
       font-size: 1.5rem;
       margin-top: 2rem;
       margin-bottom: 1rem;
-      text-align: center;
+      color: #333;
+      font-weight: 500;
     }
-
+    /* PAPER ENTRY */
     .paper-entry {
-      margin-bottom: 2rem;
-      text-align: center;
+      border-top: 1px solid #ccc;
       padding: 1rem 0;
+    }
+    .paper-title a:hover {
+      color: #555;
     }
     .paper-title {
       font-size: 1.2rem;
       font-weight: 600;
-    }
-    .paper-title a {
-      text-decoration: none;
       color: #333;
-    }
-    .paper-title a:hover {
-      color: #555;
     }
     .paper-subtitle {
       font-size: 0.95rem;
       font-style: italic;
       color: #555;
       margin-bottom: 0.5rem;
+    }
+    details {
+      margin-top: 0.5rem;
+      cursor: pointer;
+    }
+    details summary {
+      font-weight: 500;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+    }
+    details summary:hover {
+      color: #555;
+    }
+    details .paper-content {
+      margin-top: 0.5rem;
+      font-size: 0.95rem;
+      color: #444;
     }
 
     /* FOOTER */
@@ -165,22 +124,15 @@
         margin-top: 1rem;
       }
       main {
-        flex-direction: column;
-        gap: 1.5rem;
-      }
-      .sidebar {
-        text-align: center;
-      }
-      .content {
-        text-align: center;
-      }
-      .section-heading {
-        font-size: 1.3rem;
+        padding: 0 1rem;
       }
       .paper-title {
         font-size: 1.1rem;
       }
       .paper-subtitle {
+        font-size: 0.9rem;
+      }
+      details summary {
         font-size: 0.9rem;
       }
     }
@@ -189,21 +141,14 @@
       header {
         padding: 1rem;
       }
-      .name {
+      .logo {
         font-size: 1.2rem;
       }
       nav ul {
         gap: 0.5rem;
       }
       main {
-        padding: 0 1rem;
-      }
-      .sidebar img {
-        width: 150px;
-        height: 150px;
-      }
-      .social-links {
-        max-width: 150px;
+        padding: 0 0.5rem;
       }
       .section-heading {
         font-size: 1.2rem;
@@ -214,6 +159,9 @@
       .paper-subtitle {
         font-size: 0.85rem;
       }
+      details summary {
+        font-size: 0.85rem;
+      }
     }
   </style>
 </head>
@@ -221,16 +169,15 @@
 
   <!-- HEADER -->
   <header>
-    <div class="name">Maximilian Günnewig-Mönert</div>
+    <div class="logo">Maximilian Günnewig-Mönert</div>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="research.html">Research</a></li>
+        <li><a href="research.html" style="text-decoration: underline;">Research</a></li>
         <li><a href="teaching.html">Teaching</a></li>
       </ul>
     </nav>
   </header>
-
 
   <!-- MAIN CONTENT -->
   <main>
