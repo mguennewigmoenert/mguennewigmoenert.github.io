@@ -78,43 +78,57 @@
       color: #333;
       font-weight: 500;
     }
-    /* PAPER ENTRY */
-    .paper-entry {
-      border-top: 1px solid #ccc;
-      padding: 1rem 0;
-    }
-    .paper-title a:hover {
-      color: #555;
-    }
-    .paper-title {
-      font-size: 1.2rem;
-      font-weight: 600;
-      color: #333;
-    }
-    .paper-subtitle {
-      font-size: 0.95rem;
-      font-style: italic;
-      color: #555;
-      margin-bottom: 0.5rem;
-    }
-    details {
-      margin-top: 0.5rem;
-      cursor: pointer;
-    }
-    details summary {
-      font-weight: 500;
-      font-size: 0.95rem;
-      display: inline-flex;
-      align-items: center;
-    }
-    details summary:hover {
-      color: #555;
-    }
-    details .paper-content {
-      margin-top: 0.5rem;
-      font-size: 0.95rem;
-      color: #444;
-    }
+
+/* PAPER ENTRY */
+  .paper-entry {
+    border-top: 1px solid #ccc;
+    padding: 1rem 0;
+  }
+
+  .paper-title a:hover {
+    color: #555;
+  }
+
+  .paper-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .paper-subtitle {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+
+  details {
+    margin-top: 0.5rem;
+    cursor: pointer;
+  }
+
+  details summary {
+    font-weight: 500;
+    font-size: 0.95rem;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  details summary:hover {
+    color: #555;
+  }
+
+  details .paper-content {
+    margin-top: 0.5rem;
+    font-size: 0.95rem;
+    color: #444;
+  }
+
+  /* JUSTIFIED ABSTRACT TEXT */
+  details .paper-content p {
+    text-align: justify;
+    hyphens: auto;
+  }
 
     /* FOOTER */
     footer {
@@ -347,7 +361,7 @@
       </div>
       <details>
         <summary>Abstract</summary>
-        <div class="paper-content">
+        <div class="paper-content"> 
           <p>This article examines the responsiveness of new housing supply to prices and costs, 
             using the case of Ireland at quarterly frequency from the 1970s, as well as a county-
             level panel from the 1990s. Across four error-correction specifications, and supported 
